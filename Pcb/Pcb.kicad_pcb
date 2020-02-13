@@ -265,6 +265,90 @@
     (add_net VCC)
   )
 
+  (module 1symblos:Jumper (layer B.Cu) (tedit 5E4547D8) (tstamp 5E45A302)
+    (at 212.77 104.64 270)
+    (path /5DC382C2)
+    (attr smd)
+    (fp_text reference JP2 (at -2.413 -0.127 90) (layer B.SilkS) hide
+      (effects (font (size 0.8128 0.8128) (thickness 0.1524)) (justify mirror))
+    )
+    (fp_text value Jumper (at -2.794 0 90) (layer B.SilkS) hide
+      (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd roundrect (at -0.50038 0 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2)
+      (net 81 "Net-(J1-PadA)") (clearance 0.1905))
+    (pad 2 smd roundrect (at 0.50038 0 270) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2)
+      (net 66 SDA) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module 1symblos:Jumper (layer F.Cu) (tedit 5E4547D8) (tstamp 5E44EE02)
+    (at 212.77 104.64 90)
+    (path /5DC382C8)
+    (attr smd)
+    (fp_text reference JP3 (at -2.413 0.127 90) (layer F.SilkS) hide
+      (effects (font (size 0.8128 0.8128) (thickness 0.1524)))
+    )
+    (fp_text value Jumper (at -2.794 0 90) (layer F.SilkS) hide
+      (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    )
+    (pad 1 smd roundrect (at -0.50038 0 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2)
+      (net 81 "Net-(J1-PadA)") (clearance 0.1905))
+    (pad 2 smd roundrect (at 0.50038 0 90) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2)
+      (net 65 SCL) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module 1symblos:Jumper (layer F.Cu) (tedit 5E4547D8) (tstamp 5E44EE0B)
+    (at 212.77 108.84 270)
+    (path /5DC2DEC8)
+    (attr smd)
+    (fp_text reference JP4 (at -2.413 0.127 90) (layer F.SilkS) hide
+      (effects (font (size 0.8128 0.8128) (thickness 0.1524)))
+    )
+    (fp_text value Jumper (at -2.794 0 90) (layer F.SilkS) hide
+      (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    )
+    (pad 1 smd roundrect (at -0.50038 0 270) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2)
+      (net 82 "Net-(J1-PadD)") (clearance 0.1905))
+    (pad 2 smd roundrect (at 0.50038 0 270) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2)
+      (net 66 SDA) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module 1symblos:Jumper (layer B.Cu) (tedit 5E4547D8) (tstamp 5E44EE14)
+    (at 212.77 108.84 90)
+    (path /5DC322E4)
+    (attr smd)
+    (fp_text reference JP5 (at -2.413 -0.127 90) (layer B.SilkS) hide
+      (effects (font (size 0.8128 0.8128) (thickness 0.1524)) (justify mirror))
+    )
+    (fp_text value Jumper (at -2.794 0 90) (layer B.SilkS) hide
+      (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd roundrect (at -0.50038 0 90) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2)
+      (net 82 "Net-(J1-PadD)") (clearance 0.1905))
+    (pad 2 smd roundrect (at 0.50038 0 90) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2)
+      (net 65 SCL) (clearance 0.1905))
+    (model smd\resistors\R0603.wrl
+      (offset (xyz 0 0 0.02539999961853028))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (module Used_Footprints:Hole_Mount_M4 (layer F.Cu) (tedit 5E452CE9) (tstamp 5E44EDC7)
     (at 191.435 112.1895)
     (path /5DC03D38)
@@ -2756,7 +2840,7 @@
   (module Used_Footprints:TRSS_DUAL_THT (layer F.Cu) (tedit 5E280C3F) (tstamp 5E44EDED)
     (at 227.61 106.74 270)
     (path /5DBFACF7)
-    (fp_text reference J1 (at 0 -1.02 90) (layer F.Fab)
+    (fp_text reference J1 (at 0 -1.02 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TRRS (at 0 14 90) (layer F.Fab) hide
@@ -2784,113 +2868,13 @@
     )
   )
 
-  (module 1symblos:Jumper (layer B.Cu) (tedit 5C97D48C) (tstamp 5E44EDF9)
-    (at 212.77 104.64 180)
-    (path /5DC382C2)
-    (attr smd)
-    (fp_text reference JP2 (at -2.413 -0.127) (layer B.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.1524)) (justify mirror))
-    )
-    (fp_text value Jumper (at -2.794 0) (layer B.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
-    )
-    (fp_line (start -1.143 -0.889) (end -1.143 0.889) (layer B.SilkS) (width 0.15))
-    (fp_line (start 1.143 -0.889) (end -1.143 -0.889) (layer B.SilkS) (width 0.15))
-    (fp_line (start 1.143 0.889) (end 1.143 -0.889) (layer B.SilkS) (width 0.15))
-    (fp_line (start -1.143 0.889) (end 1.143 0.889) (layer B.SilkS) (width 0.15))
-    (pad 2 smd rect (at 0.50038 0 180) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
-      (net 66 SDA) (clearance 0.1905))
-    (pad 1 smd rect (at -0.50038 0 180) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
-      (net 81 "Net-(J1-PadA)") (clearance 0.1905))
-    (model smd\resistors\R0603.wrl
-      (offset (xyz 0 0 0.02539999961853028))
-      (scale (xyz 0.5 0.5 0.5))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module 1symblos:Jumper (layer F.Cu) (tedit 5C97D48C) (tstamp 5E44EE02)
-    (at 212.77 104.64)
-    (path /5DC382C8)
-    (attr smd)
-    (fp_text reference JP3 (at -2.413 0.127) (layer F.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.1524)))
-    )
-    (fp_text value Jumper (at -2.794 0) (layer F.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.15)))
-    )
-    (fp_line (start -1.143 -0.889) (end 1.143 -0.889) (layer F.SilkS) (width 0.15))
-    (fp_line (start 1.143 -0.889) (end 1.143 0.889) (layer F.SilkS) (width 0.15))
-    (fp_line (start 1.143 0.889) (end -1.143 0.889) (layer F.SilkS) (width 0.15))
-    (fp_line (start -1.143 0.889) (end -1.143 -0.889) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -0.50038 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
-      (net 81 "Net-(J1-PadA)") (clearance 0.1905))
-    (pad 2 smd rect (at 0.50038 0) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
-      (net 65 SCL) (clearance 0.1905))
-    (model smd\resistors\R0603.wrl
-      (offset (xyz 0 0 0.02539999961853028))
-      (scale (xyz 0.5 0.5 0.5))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module 1symblos:Jumper (layer F.Cu) (tedit 5C97D48C) (tstamp 5E44EE0B)
-    (at 212.77 108.84 180)
-    (path /5DC2DEC8)
-    (attr smd)
-    (fp_text reference JP4 (at -2.413 0.127) (layer F.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.1524)))
-    )
-    (fp_text value Jumper (at -2.794 0) (layer F.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.15)))
-    )
-    (fp_line (start -1.143 0.889) (end -1.143 -0.889) (layer F.SilkS) (width 0.15))
-    (fp_line (start 1.143 0.889) (end -1.143 0.889) (layer F.SilkS) (width 0.15))
-    (fp_line (start 1.143 -0.889) (end 1.143 0.889) (layer F.SilkS) (width 0.15))
-    (fp_line (start -1.143 -0.889) (end 1.143 -0.889) (layer F.SilkS) (width 0.15))
-    (pad 2 smd rect (at 0.50038 0 180) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
-      (net 66 SDA) (clearance 0.1905))
-    (pad 1 smd rect (at -0.50038 0 180) (size 0.635 1.143) (layers F.Cu F.Paste F.Mask)
-      (net 82 "Net-(J1-PadD)") (clearance 0.1905))
-    (model smd\resistors\R0603.wrl
-      (offset (xyz 0 0 0.02539999961853028))
-      (scale (xyz 0.5 0.5 0.5))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module 1symblos:Jumper (layer B.Cu) (tedit 5C97D48C) (tstamp 5E44EE14)
-    (at 212.77 108.84)
-    (path /5DC322E4)
-    (attr smd)
-    (fp_text reference JP5 (at -2.413 -0.127) (layer B.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.1524)) (justify mirror))
-    )
-    (fp_text value Jumper (at -2.794 0) (layer B.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
-    )
-    (fp_line (start -1.143 0.889) (end 1.143 0.889) (layer B.SilkS) (width 0.15))
-    (fp_line (start 1.143 0.889) (end 1.143 -0.889) (layer B.SilkS) (width 0.15))
-    (fp_line (start 1.143 -0.889) (end -1.143 -0.889) (layer B.SilkS) (width 0.15))
-    (fp_line (start -1.143 -0.889) (end -1.143 0.889) (layer B.SilkS) (width 0.15))
-    (pad 1 smd rect (at -0.50038 0) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
-      (net 82 "Net-(J1-PadD)") (clearance 0.1905))
-    (pad 2 smd rect (at 0.50038 0) (size 0.635 1.143) (layers B.Cu B.Paste B.Mask)
-      (net 65 SCL) (clearance 0.1905))
-    (model smd\resistors\R0603.wrl
-      (offset (xyz 0 0 0.02539999961853028))
-      (scale (xyz 0.5 0.5 0.5))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
   (module Used_Footprints:Mosfet_SMD_Dual_SOT-23 (layer F.Cu) (tedit 5E280C6B) (tstamp 5E44EE1D)
     (at 212.38 96.48 90)
     (path /5DB74305)
-    (fp_text reference Q1 (at 0 -2.26 90) (layer F.SilkS)
+    (fp_text reference Q1 (at 0 -2.26 90) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.65 90) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.65 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.64 1.83) (end -1.64 -1.67) (layer F.CrtYd) (width 0.05))
@@ -3846,10 +3830,10 @@
   (module Used_Footprints:Resistor_Hybrid_1205 (layer F.Cu) (tedit 5E28092A) (tstamp 5E44EFD4)
     (at 219.89 98.63)
     (path /5DAAA6F2)
-    (fp_text reference R29 (at 0.01 1.78) (layer F.SilkS)
+    (fp_text reference R29 (at 0.01 1.78) (layer B.Mask) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7 (at 0 -1.76) (layer F.Fab)
+    (fp_text value 4.7 (at 0 -1.76) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer F.Fab) (width 0.1))
@@ -3879,10 +3863,10 @@
   (module Used_Footprints:Resistor_Hybrid_1205 (layer F.Cu) (tedit 5E28092A) (tstamp 5E44EFE3)
     (at 219.89 101.54 180)
     (path /5DAAB292)
-    (fp_text reference R30 (at 0.01 1.78) (layer F.SilkS)
+    (fp_text reference R30 (at 0.01 1.78) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7k (at 0 -1.76) (layer F.Fab)
+    (fp_text value 4.7k (at 0 -1.76) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
@@ -3912,10 +3896,10 @@
   (module Used_Footprints:Resistor_Hybrid_1205 (layer F.Cu) (tedit 5E28092A) (tstamp 5E44EFF2)
     (at 219.89 95.72)
     (path /5DB7D24B)
-    (fp_text reference R31 (at 0.01 1.78) (layer F.SilkS)
+    (fp_text reference R31 (at 0.01 1.78) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 -1.76) (layer F.Fab)
+    (fp_text value 100k (at 0 -1.76) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
@@ -3945,10 +3929,10 @@
   (module Used_Footprints:Switch_Reset_THT (layer F.Cu) (tedit 5E280C26) (tstamp 5E44F2F5)
     (at 227.58 99.1 90)
     (path /5DBF73FF)
-    (fp_text reference SW29 (at 0 0.01 90) (layer F.SilkS)
+    (fp_text reference SW29 (at 0 0.01 90) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SW_Push (at -0.02 -2.73 90) (layer F.Fab)
+    (fp_text value SW_Push (at -0.02 -2.73 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 3 -1.75) (end 3 -1.5) (layer Dwgs.User) (width 0.15))
@@ -3966,10 +3950,10 @@
   (module Used_Footprints:ProMicro_Dual (layer F.Cu) (tedit 5E28301A) (tstamp 5E44F300)
     (at 220.54 78.53)
     (path /5DAA926E)
-    (fp_text reference U1 (at 0 -15.69) (layer F.SilkS)
+    (fp_text reference U1 (at 0 -15.69) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ProMicro (at 0 17.05) (layer F.Fab)
+    (fp_text value ProMicro (at 0 17.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user ProMicro (at 0 13.82 180) (layer B.SilkS) hide
@@ -4089,10 +4073,10 @@
   (module Used_Footprints:Hole_Cover_M2 (layer F.Cu) (tedit 5E280BDF) (tstamp 5E455F5D)
     (at 213.01 112.8335)
     (path /5DC2660A)
-    (fp_text reference HC1 (at 0.09 -2.71) (layer F.SilkS)
+    (fp_text reference HC1 (at 0.09 -2.71) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CoverHole (at 0.09 -3.71) (layer F.Fab)
+    (fp_text value CoverHole (at 0.09 -3.71) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 4 4) (drill 2.2) (layers *.Cu *.Mask))
@@ -4101,10 +4085,10 @@
   (module Used_Footprints:Hole_Cover_M2 (layer F.Cu) (tedit 5E280BDF) (tstamp 5E455F62)
     (at 227.01 112.8335)
     (path /5DC26610)
-    (fp_text reference HC2 (at 0.09 -2.71) (layer F.SilkS)
+    (fp_text reference HC2 (at 0.09 -2.71) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CoverHole (at 0.09 -3.71) (layer F.Fab)
+    (fp_text value CoverHole (at 0.09 -3.71) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 4 4) (drill 2.2) (layers *.Cu *.Mask))
@@ -4113,10 +4097,10 @@
   (module Used_Footprints:Hole_Mount_M4 (layer F.Cu) (tedit 5E452CE9) (tstamp 5E455F67)
     (at 191.435 55.0455)
     (path /5DC0F92C)
-    (fp_text reference HM3 (at -0.01 -2.09) (layer F.SilkS)
+    (fp_text reference HM3 (at -0.01 -2.09) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab)
+    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
@@ -4125,10 +4109,10 @@
   (module Used_Footprints:Hole_Mount_M4 (layer F.Cu) (tedit 5E452CE9) (tstamp 5E455F6C)
     (at 153.335 51.52125)
     (path /5DC14B86)
-    (fp_text reference HM4 (at -0.01 -2.09) (layer F.SilkS)
+    (fp_text reference HM4 (at -0.01 -2.09) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab)
+    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
@@ -4137,10 +4121,10 @@
   (module Used_Footprints:Hole_Mount_M4 (layer F.Cu) (tedit 5E452CE9) (tstamp 5E455F71)
     (at 153.279936 70.551212)
     (path /5DC1BC70)
-    (fp_text reference HM5 (at -0.01 -2.09) (layer F.SilkS)
+    (fp_text reference HM5 (at -0.01 -2.09) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab)
+    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
@@ -4149,10 +4133,10 @@
   (module Used_Footprints:Hole_Mount_M4 (layer F.Cu) (tedit 5E452CE9) (tstamp 5E455F76)
     (at 115.235 81.23925)
     (path /5DC1BC76)
-    (fp_text reference HM6 (at -0.01 -2.09) (layer F.SilkS)
+    (fp_text reference HM6 (at -0.01 -2.09) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab)
+    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
@@ -4161,10 +4145,10 @@
   (module Used_Footprints:Hole_Mount_M4 (layer F.Cu) (tedit 5E452CE9) (tstamp 5E455F7B)
     (at 115.235 100.28325)
     (path /5DC1BC7C)
-    (fp_text reference HM7 (at -0.01 -2.09) (layer F.SilkS)
+    (fp_text reference HM7 (at -0.01 -2.09) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab)
+    (fp_text value CaseHole (at 0.5 -3.77) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
@@ -4173,10 +4157,10 @@
   (module Used_Footprints:Hole_Mount_M4 (layer F.Cu) (tedit 5E452CE9) (tstamp 5E455F80)
     (at 96.16 82.4965)
     (path /5E45ABA8)
-    (fp_text reference HM8 (at -0.01 -2.09) (layer F.SilkS)
+    (fp_text reference HM8 (at -0.01 -2.09) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab)
+    (fp_text value CaseHole (at 0.5 -3.77) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
@@ -4319,36 +4303,4 @@
   (gr_line (start 191.410001 35.87) (end 191.410001 36.156) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 211.51 134.8325) (end 228.51 134.8325) (layer Edge.Cuts) (width 0.05))
 
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5DC895F0) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 96.1 44.29) (xy 96.1 77.7) (xy 77.1 77.7) (xy 77.1 96.8) (xy 96.1 96.8)
-        (xy 96.1 120.6) (xy 115.31 120.6) (xy 115.31 118) (xy 134.3 118) (xy 134.3 111.1)
-        (xy 153.4 111.1) (xy 153.4 106.29) (xy 172.3 106.29) (xy 172.3 130.1) (xy 191.4 130.1)
-        (xy 191.4 132.4) (xy 210.4 132.4) (xy 210.4 134.9) (xy 229.6 134.9) (xy 229.6 58.6)
-        (xy 210.5 58.6) (xy 210.5 37.1) (xy 191.5 37.1) (xy 191.5 34.8) (xy 172.4 34.8)
-        (xy 172.4 30.08) (xy 153.3 30.08) (xy 153.3 34.8) (xy 134.27 34.8) (xy 134.27 41.8)
-        (xy 115.2 41.8) (xy 115.2 44.3)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5DC895ED) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 96.1 44.29) (xy 96.1 77.7) (xy 77.1 77.7) (xy 77.1 96.8) (xy 96.1 96.8)
-        (xy 96.1 120.6) (xy 115.31 120.6) (xy 115.31 118) (xy 134.3 118) (xy 134.3 111.1)
-        (xy 153.4 111.1) (xy 153.4 106.29) (xy 172.3 106.29) (xy 172.3 130.1) (xy 191.4 130.1)
-        (xy 191.4 132.4) (xy 210.4 132.4) (xy 210.4 134.9) (xy 229.6 134.9) (xy 229.6 58.6)
-        (xy 210.5 58.6) (xy 210.5 37.1) (xy 191.5 37.1) (xy 191.5 34.8) (xy 172.4 34.8)
-        (xy 172.4 30.08) (xy 153.3 30.08) (xy 153.3 34.8) (xy 134.27 34.8) (xy 134.27 41.8)
-        (xy 115.2 41.8) (xy 115.2 44.3)
-      )
-    )
-  )
 )
