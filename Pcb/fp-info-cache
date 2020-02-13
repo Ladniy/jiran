@@ -1,340 +1,4 @@
-17073636132557057
-1kbd
-battery_pad
-
-
-0
-1
-1
-1kbd
-cherry
-
-
-0
-7
-2
-1kbd
-connector_custom
-
-
-0
-35
-11
-1kbd
-connector_custom_small
-
-
-0
-8
-8
-1kbd
-connector_edge
-
-
-0
-15
-5
-1kbd
-connector_edge_smd
-
-
-0
-8
-5
-1kbd
-connector_edge_smd_mirrored
-
-
-0
-7
-4
-1kbd
-connector_i2c
-
-
-0
-4
-4
-1kbd
-connector_swd
-
-
-0
-4
-4
-1kbd
-cr2032_bs-7
-http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf
-
-0
-2
-2
-1kbd
-C_0805
-Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-1kbd
-edge_conn
-
-
-0
-12
-4
-1kbd
-edge_conn_base
-
-
-0
-8
-5
-1kbd
-edge_conn_left
-
-
-0
-10
-5
-1kbd
-edge_conn_left_th
-
-
-0
-12
-4
-1kbd
-edge_conn_plug
-
-
-0
-8
-5
-1kbd
-edge_conn_right
-
-
-0
-10
-5
-1kbd
-edge_conn_right_th
-
-
-0
-15
-5
-1kbd
-jorian_logo
-
-
-0
-0
-0
-1kbd
-jorian_logo1
-
-
-0
-0
-0
-1kbd
-jorian_logo2
-
-
-0
-0
-0
-1kbd
-jorian_logo3
-
-
-0
-0
-0
-1kbd
-JST_PH2_SMT_TH
-http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-JST, PH, Lipo, battery
-0
-6
-3
-1kbd
-jumper
-
-
-0
-2
-2
-1kbd
-jumper_3way
-
-
-0
-3
-3
-1kbd
-kbd_SK6812MINI
-
-
-0
-8
-4
-1kbd
-lipo_charger_03962A
-
-
-0
-6
-6
-1kbd
-lipo_header
-
-
-0
-2
-2
-1kbd
-nrf51822_E73-2G4M04S
-
-
-0
-44
-44
-1kbd
-nrf51822_smd
-
-
-0
-36
-36
-1kbd
-nrf51840_E73-2G4M08S1C
-
-
-0
-43
-43
-1kbd
-oled_128x32_i2c
-
-
-0
-4
-4
-1kbd
-oled_128x64_i2c
-
-
-0
-4
-4
-1kbd
-R_0805
-Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-1kbd
-SOP-8
-SO-8 Surface Mount Small Outline 150mil 8pin Package
-Power Integrations D Package
-0
-16
-8
-1kbd
-SOT-23-5
-5-pin SOT23 package
-SOT-23-5
-0
-10
-5
-1kbd
-SOT-23-6
-6-pin SOT-23 package
-SOT-23-6
-0
-12
-6
-1kbd
-SOT-223-3
-module CMS SOT223 4 pins
-CMS SOT
-0
-4
-3
-1kbd
-switch_MSK-12C02_smd
-
-
-0
-7
-3
-1kbd
-switch_MSK-12D19
-
-
-0
-3
-3
-1kbd
-switch_SK12D07VG4
-
-
-0
-5
-3
-1kbd
-test
-
-
-0
-0
-0
-1kbd
-trrs_connector
-
-
-0
-8
-4
-1kbd
-TSSOP-8
-8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.65
-0
-16
-8
-1kbd
-TSSOP-8_4.4x3mm_P0.65mm
-8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.65
-0
-8
-8
-1kbd
-usb_micro
-GCT Micro USB https://gct.co/files/drawings/usb3076.pdf
-Micro-USB SMD Typ-B GCT
-0
-11
-6
-1kbd
-usb_micro_custom
-USB Micro-B receptacle, http://www.mouser.com/ds/2/445/629105150521-469306.pdf
-usb micro receptacle
-0
-9
-6
-1kbd
-usb_type_c
-
-
-0
-21
-17
+17080933818453539
 1symblos
 3pin_pad_left
 
@@ -383,6 +47,13 @@ cherry
 
 0
 7
+2
+1symblos
+Choc
+
+
+0
+3
 2
 1symblos
 Choc1350LED
@@ -448,7 +119,21 @@ japanGHOST
 0
 0
 1symblos
+JIRANUS
+
+
+0
+0
+0
+1symblos
 Jiran_Silkscreen
+
+
+0
+0
+0
+1symblos
+Jiran_Silk_NEW
 
 
 0
@@ -659,6 +344,13 @@ SignsFOOT
 0
 1symblos
 Silkscreen
+
+
+0
+0
+0
+1symblos
+Silk_Logo_Old
 
 
 0
@@ -48572,6 +48264,356 @@ L_Toroid Vertical series Radial pin pitch 31.80mm  length 67.6mm width 36.1mm Vi
 0
 2
 2
+jack mod
+2hole2
+
+
+0
+0
+0
+jack mod
+5hole2
+
+
+0
+0
+0
+jack mod
+6hole
+
+
+0
+0
+0
+jack mod
+52hole48
+
+
+0
+3
+0
+jack mod
+ArduinoProMicro-double
+
+
+0
+72
+48
+jack mod
+ArduinoProMicro-double-flipped
+
+
+0
+72
+48
+jack mod
+ArduinoProMicro-double-flipped-mil
+
+
+0
+120
+48
+jack mod
+ArduinoProMicro-double-half
+
+
+0
+36
+36
+jack mod
+ArduinoProMicro-double-half-mill
+
+
+0
+60
+36
+jack mod
+ArduinoProMicro-double-half-mill-flip
+
+
+0
+60
+36
+jack mod
+ArduinoProMicro-double-mil
+
+
+0
+120
+36
+jack mod
+ArduinoProMicro_bsilks
+
+
+0
+24
+24
+jack mod
+blockey2
+
+
+0
+0
+0
+jack mod
+cherry_6.25u_PCB
+Cherry MX keyswitch, MX1A, 6.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+cherry mx keyswitch MX1A 6.25u PCB
+0
+0
+0
+jack mod
+geekboards
+
+
+0
+0
+0
+jack mod
+geekboardsru
+
+
+0
+0
+0
+jack mod
+Kailh_socket
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+3
+2
+jack mod
+Kailh_socket2
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+3
+2
+jack mod
+Kailh_socket3
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+jack mod
+LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+LED RGB NeoPixel Mini
+0
+4
+4
+jack mod
+Lyra graphix
+
+
+0
+0
+0
+jack mod
+Lyragraphix
+
+
+0
+0
+0
+jack mod
+MECHCULT
+
+
+0
+0
+0
+jack mod
+MECHCULT2
+
+
+0
+0
+0
+jack mod
+MX-ALPs-PG1350-LED-FLIP_JMP
+
+
+0
+7
+3
+jack mod
+phd9_black
+
+
+0
+0
+0
+jack mod
+phd9_red
+
+
+0
+0
+0
+jack mod
+PHD_black
+
+
+0
+0
+0
+jack mod
+PHD_red
+
+
+0
+0
+0
+jack mod
+PJ3617
+
+
+0
+6
+4
+jack mod
+platemaket
+
+
+0
+0
+0
+jack mod
+platemaket2
+
+
+0
+0
+0
+jack mod
+platemaket3
+
+
+0
+0
+0
+jack mod
+silkscreen-back
+
+
+0
+0
+0
+jack mod
+silkscreen-front
+
+
+0
+0
+0
+jack mod
+silkscreen-front2
+
+
+0
+0
+0
+jack mod
+silkscreen-mid-test
+
+
+0
+0
+0
+jack mod
+SinglePadRect
+
+
+0
+1
+1
+jack mod
+SOT-23_doubleside
+SOT-23, Handsoldering
+SOT-23
+0
+5
+3
+jack mod
+SW_Cherry_MX1A_2.00u_PCB
+Cherry MX keyswitch, MX1A, 2.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+cherry mx keyswitch MX1A 2.00u PCB
+0
+0
+0
+jack mod
+SW_Cherry_MX1A_2.25u_PCB
+Cherry MX keyswitch, MX1A, 2.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+cherry mx keyswitch MX1A 2.25u PCB
+0
+0
+0
+jack mod
+SW_Cherry_MX1A_2.75u_PCB
+Cherry MX keyswitch, MX1A, 2.75u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+cherry mx keyswitch MX1A 2.75u PCB
+0
+0
+0
+jack mod
+SW_PUSH_6mm_H5mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=5mm
+tact sw push 6mm
+0
+4
+2
+jack mod
+SW_PUSH_6mm_H5mm_b_silks
+tactile push button, 6x6mm e.g. PHAP33xx series, height=5mm
+tact sw push 6mm
+0
+4
+2
+jack mod
+Symmetricaljack
+
+
+0
+8
+4
+jack mod
+tkl_silk
+
+
+0
+0
+0
+jack mod
+TRRS-PJ-320A
+
+
+0
+8
+4
+jack mod
+TRRS-PJ-320A-dual
+
+
+0
+8
+4
+jack mod
+TRRS-PJ-320A-dual-ring
+
+
+0
+10
+6
+jack mod
+TRRS_Jumper
+
+
+0
+6
+6
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -75803,91 +75845,84 @@ Wurth-632723300011-MaximumExtensionMount
 32
 27
 Used_Footprints
-CoverHole
+Diode_Hybrid_SOD-123
+
+
+0
+10
+2
+Used_Footprints
+Hole_Cover_M2
 
 
 0
 1
 1
 Used_Footprints
-Diode_SMD_TH
-
-
-0
-6
-2
-Used_Footprints
-HoleBreak
+Hole_Mount_M4
 
 
 0
 0
 0
 Used_Footprints
-ISP
-
-
-0
-6
-6
-Used_Footprints
-LED
+LED_THT_1.8mm
 
 
 0
 2
 2
 Used_Footprints
-MountHole
-
-
-0
-0
-0
-Used_Footprints
-MX_Two_Side
-
-
-0
-4
-2
-Used_Footprints
-ProMicro_TwoSide
-
-
-0
-48
-24
-Used_Footprints
-Reset_Switch
-
-
-0
-2
-2
-Used_Footprints
-Resistor_SMD_TH
-
-
-0
-6
-2
-Used_Footprints
-SOT-23
+Mosfet_SMD_Dual_SOT-23
 
 
 0
 6
 3
 Used_Footprints
-TRRS_2Side
+ProMicro_Dual
 
 
 0
-8
-4
+48
+24
 Used_Footprints
-TRSS_DUAL
+Resistor_Hybrid_1205
+
+
+0
+10
+2
+Used_Footprints
+Silk_Logo_New
+
+
+0
+0
+0
+Used_Footprints
+Silk_Logo_Old
+
+
+0
+0
+0
+Used_Footprints
+Switch_MxAlpsChoc_MillMax_1u
+
+
+0
+7
+2
+Used_Footprints
+Switch_Reset_THT
+
+
+0
+2
+2
+Used_Footprints
+TRSS_DUAL_THT
 
 
 0
