@@ -1996,10 +1996,10 @@ SDA
 Text GLabel 1705 3115 2    50   Input ~ 0
 SCL
 $Comp
-L Mechanical:MountingHole H1
+L Mechanical:MountingHole HM1
 U 1 1 5DC03D38
 P 7515 4110
-F 0 "H1" H 7615 4156 50  0000 L CNN
+F 0 "HM1" H 7615 4156 50  0000 L CNN
 F 1 "CaseHole" H 7615 4065 50  0000 L CNN
 F 2 "Used_Footprints:Hole_Mount_M4" H 7515 4110 50  0001 C CNN
 F 3 "~" H 7515 4110 50  0001 C CNN
@@ -2007,10 +2007,10 @@ F 3 "~" H 7515 4110 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole HM2
 U 1 1 5DC0512E
 P 7515 4300
-F 0 "H2" H 7615 4346 50  0000 L CNN
+F 0 "HM2" H 7615 4346 50  0000 L CNN
 F 1 "CaseHole" H 7615 4255 50  0000 L CNN
 F 2 "Used_Footprints:Hole_Mount_M4" H 7515 4300 50  0001 C CNN
 F 3 "~" H 7515 4300 50  0001 C CNN
@@ -2018,10 +2018,10 @@ F 3 "~" H 7515 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole HM3
 U 1 1 5DC0F92C
 P 7515 4500
-F 0 "H3" H 7615 4546 50  0000 L CNN
+F 0 "HM3" H 7615 4546 50  0000 L CNN
 F 1 "CaseHole" H 7615 4455 50  0000 L CNN
 F 2 "Used_Footprints:Hole_Mount_M4" H 7515 4500 50  0001 C CNN
 F 3 "~" H 7515 4500 50  0001 C CNN
@@ -2029,10 +2029,10 @@ F 3 "~" H 7515 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole HM4
 U 1 1 5DC14B86
 P 7515 4700
-F 0 "H4" H 7615 4746 50  0000 L CNN
+F 0 "HM4" H 7615 4746 50  0000 L CNN
 F 1 "CaseHole" H 7615 4655 50  0000 L CNN
 F 2 "Used_Footprints:Hole_Mount_M4" H 7515 4700 50  0001 C CNN
 F 3 "~" H 7515 4700 50  0001 C CNN
@@ -2040,10 +2040,10 @@ F 3 "~" H 7515 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
+L Mechanical:MountingHole HM5
 U 1 1 5DC1BC70
 P 7515 4905
-F 0 "H5" H 7615 4951 50  0000 L CNN
+F 0 "HM5" H 7615 4951 50  0000 L CNN
 F 1 "CaseHole" H 7615 4860 50  0000 L CNN
 F 2 "Used_Footprints:Hole_Mount_M4" H 7515 4905 50  0001 C CNN
 F 3 "~" H 7515 4905 50  0001 C CNN
@@ -2051,10 +2051,10 @@ F 3 "~" H 7515 4905 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H6
+L Mechanical:MountingHole HM6
 U 1 1 5DC1BC76
 P 7515 5095
-F 0 "H6" H 7615 5141 50  0000 L CNN
+F 0 "HM6" H 7615 5141 50  0000 L CNN
 F 1 "CaseHole" H 7615 5050 50  0000 L CNN
 F 2 "Used_Footprints:Hole_Mount_M4" H 7515 5095 50  0001 C CNN
 F 3 "~" H 7515 5095 50  0001 C CNN
@@ -2062,10 +2062,10 @@ F 3 "~" H 7515 5095 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H7
+L Mechanical:MountingHole HM7
 U 1 1 5DC1BC7C
 P 7515 5295
-F 0 "H7" H 7615 5341 50  0000 L CNN
+F 0 "HM7" H 7615 5341 50  0000 L CNN
 F 1 "CaseHole" H 7615 5250 50  0000 L CNN
 F 2 "Used_Footprints:Hole_Mount_M4" H 7515 5295 50  0001 C CNN
 F 3 "~" H 7515 5295 50  0001 C CNN
@@ -2073,10 +2073,10 @@ F 3 "~" H 7515 5295 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H8
+L Mechanical:MountingHole HC1
 U 1 1 5DC2660A
 P 8115 4100
-F 0 "H8" H 8215 4146 50  0000 L CNN
+F 0 "HC1" H 8215 4146 50  0000 L CNN
 F 1 "CoverHole" H 8215 4055 50  0000 L CNN
 F 2 "Used_Footprints:Hole_Cover_M2" H 8115 4100 50  0001 C CNN
 F 3 "~" H 8115 4100 50  0001 C CNN
@@ -2084,14 +2084,25 @@ F 3 "~" H 8115 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H9
+L Mechanical:MountingHole HC2
 U 1 1 5DC26610
 P 8115 4300
-F 0 "H9" H 8215 4346 50  0000 L CNN
+F 0 "HC2" H 8215 4346 50  0000 L CNN
 F 1 "CoverHole" H 8215 4255 50  0000 L CNN
 F 2 "Used_Footprints:Hole_Cover_M2" H 8115 4300 50  0001 C CNN
 F 3 "~" H 8115 4300 50  0001 C CNN
 	1    8115 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HM8
+U 1 1 5E45ABA8
+P 7515 5485
+F 0 "HM8" H 7615 5531 50  0000 L CNN
+F 1 "CaseHole" H 7615 5440 50  0000 L CNN
+F 2 "Used_Footprints:Hole_Mount_M4" H 7515 5485 50  0001 C CNN
+F 3 "~" H 7515 5485 50  0001 C CNN
+	1    7515 5485
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
