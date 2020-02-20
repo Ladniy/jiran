@@ -1435,39 +1435,6 @@ F 3 "~" V 7335 2985 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small D54
-U 1 1 5DB0079C
-P 9845 1625
-F 0 "D54" V 9845 1557 50  0000 R CNN
-F 1 "LED_Small" V 9800 1557 50  0001 R CNN
-F 2 "Used_Footprints:LED_THT_1.8mm" V 9845 1625 50  0001 C CNN
-F 3 "~" V 9845 1625 50  0001 C CNN
-	1    9845 1625
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED_Small D55
-U 1 1 5DB007A2
-P 10195 1625
-F 0 "D55" V 10195 1557 50  0000 R CNN
-F 1 "LED_Small" V 10150 1557 50  0001 R CNN
-F 2 "Used_Footprints:LED_THT_1.8mm" V 10195 1625 50  0001 C CNN
-F 3 "~" V 10195 1625 50  0001 C CNN
-	1    10195 1625
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED_Small D56
-U 1 1 5DB007A8
-P 10545 1625
-F 0 "D56" V 10545 1557 50  0000 R CNN
-F 1 "LED_Small" V 10500 1557 50  0001 R CNN
-F 2 "Used_Footprints:LED_THT_1.8mm" V 10545 1625 50  0001 C CNN
-F 3 "~" V 10545 1625 50  0001 C CNN
-	1    10545 1625
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R_Small R25
 U 1 1 5DB007AE
 P 7335 3185
@@ -1476,39 +1443,6 @@ F 1 "R_Small" H 7394 3140 50  0001 L CNN
 F 2 "Used_Footprints:Resistor_Hybrid_1205" H 7335 3185 50  0001 C CNN
 F 3 "~" H 7335 3185 50  0001 C CNN
 	1    7335 3185
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R26
-U 1 1 5DB007C0
-P 9845 1825
-F 0 "R26" H 9904 1825 50  0000 L CNN
-F 1 "R_Small" H 9904 1780 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_Hybrid_1205" H 9845 1825 50  0001 C CNN
-F 3 "~" H 9845 1825 50  0001 C CNN
-	1    9845 1825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R27
-U 1 1 5DB007C6
-P 10195 1825
-F 0 "R27" H 10254 1825 50  0000 L CNN
-F 1 "R_Small" H 10254 1780 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_Hybrid_1205" H 10195 1825 50  0001 C CNN
-F 3 "~" H 10195 1825 50  0001 C CNN
-	1    10195 1825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R28
-U 1 1 5DB007CC
-P 10545 1825
-F 0 "R28" H 10604 1825 50  0000 L CNN
-F 1 "R_Small" H 10604 1780 50  0001 L CNN
-F 2 "Used_Footprints:Resistor_Hybrid_1205" H 10545 1825 50  0001 C CNN
-F 3 "~" H 10545 1825 50  0001 C CNN
-	1    10545 1825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1850,47 +1784,6 @@ F 3 "" H 885 1645 50  0001 C CNN
 	1    885  1645
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7335 3285 9295 3285
-$Comp
-L power:GND #PWR0103
-U 1 1 5DC0A2E9
-P 9845 1925
-F 0 "#PWR0103" H 9845 1675 50  0001 C CNN
-F 1 "GND" H 9850 1752 50  0000 C CNN
-F 2 "" H 9845 1925 50  0001 C CNN
-F 3 "" H 9845 1925 50  0001 C CNN
-	1    9845 1925
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5DC0B2EF
-P 10195 1925
-F 0 "#PWR0104" H 10195 1675 50  0001 C CNN
-F 1 "GND" H 10200 1752 50  0000 C CNN
-F 2 "" H 10195 1925 50  0001 C CNN
-F 3 "" H 10195 1925 50  0001 C CNN
-	1    10195 1925
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5DC0C10E
-P 10545 1925
-F 0 "#PWR0105" H 10545 1675 50  0001 C CNN
-F 1 "GND" H 10550 1752 50  0000 C CNN
-F 2 "" H 10545 1925 50  0001 C CNN
-F 3 "" H 10545 1925 50  0001 C CNN
-	1    10545 1925
-	1    0    0    -1  
-$EndComp
-Text Label 9845 1525 1    50   ~ 0
-CAPS
-Text Label 10195 1525 1    50   ~ 0
-SCROLL
-Text Label 10545 1525 1    50   ~ 0
-NUM
 Text Label 2640 1745 0    50   ~ 0
 CAPS
 Text Label 2640 1845 0    50   ~ 0
@@ -2105,4 +1998,90 @@ F 3 "~" H 7515 5485 50  0001 C CNN
 	1    7515 5485
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:LED_Small D54
+U 1 1 5E50A928
+P 8385 2985
+F 0 "D54" V 8385 2917 50  0000 R CNN
+F 1 "LED_Small" V 8340 2917 50  0001 R CNN
+F 2 "Used_Footprints:LED_THT_1.8mm" V 8385 2985 50  0001 C CNN
+F 3 "~" V 8385 2985 50  0001 C CNN
+	1    8385 2985
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D55
+U 1 1 5E50A92E
+P 8735 2985
+F 0 "D55" V 8735 2917 50  0000 R CNN
+F 1 "LED_Small" V 8690 2917 50  0001 R CNN
+F 2 "Used_Footprints:LED_THT_1.8mm" V 8735 2985 50  0001 C CNN
+F 3 "~" V 8735 2985 50  0001 C CNN
+	1    8735 2985
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D56
+U 1 1 5E50A934
+P 9085 2985
+F 0 "D56" V 9085 2917 50  0000 R CNN
+F 1 "LED_Small" V 9040 2917 50  0001 R CNN
+F 2 "Used_Footprints:LED_THT_1.8mm" V 9085 2985 50  0001 C CNN
+F 3 "~" V 9085 2985 50  0001 C CNN
+	1    9085 2985
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R26
+U 1 1 5E50A93A
+P 8385 3185
+F 0 "R26" H 8444 3185 50  0000 L CNN
+F 1 "R_Small" H 8444 3140 50  0001 L CNN
+F 2 "Used_Footprints:Resistor_Hybrid_1205" H 8385 3185 50  0001 C CNN
+F 3 "~" H 8385 3185 50  0001 C CNN
+	1    8385 3185
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R27
+U 1 1 5E50A940
+P 8735 3185
+F 0 "R27" H 8794 3185 50  0000 L CNN
+F 1 "R_Small" H 8794 3140 50  0001 L CNN
+F 2 "Used_Footprints:Resistor_Hybrid_1205" H 8735 3185 50  0001 C CNN
+F 3 "~" H 8735 3185 50  0001 C CNN
+	1    8735 3185
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R28
+U 1 1 5E50A946
+P 9085 3185
+F 0 "R28" H 9144 3185 50  0000 L CNN
+F 1 "R_Small" H 9144 3140 50  0001 L CNN
+F 2 "Used_Footprints:Resistor_Hybrid_1205" H 9085 3185 50  0001 C CNN
+F 3 "~" H 9085 3185 50  0001 C CNN
+	1    9085 3185
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9295 3285 9085 3285
+Wire Wire Line
+	9085 3285 8735 3285
+Connection ~ 9085 3285
+Wire Wire Line
+	8735 3285 8385 3285
+Connection ~ 8735 3285
+Wire Wire Line
+	8385 3285 7335 3285
+Connection ~ 8385 3285
+Wire Wire Line
+	9085 2885 8735 2885
+Connection ~ 7335 2885
+Connection ~ 8385 2885
+Wire Wire Line
+	8385 2885 7335 2885
+Connection ~ 8735 2885
+Wire Wire Line
+	8735 2885 8385 2885
 $EndSCHEMATC
