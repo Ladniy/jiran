@@ -1784,12 +1784,6 @@ F 3 "" H 885 1645 50  0001 C CNN
 	1    885  1645
 	-1   0    0    1   
 $EndComp
-Text Label 2640 1745 0    50   ~ 0
-CAPS
-Text Label 2640 1845 0    50   ~ 0
-SCROLL
-Text Label 2640 1945 0    50   ~ 0
-NUM
 $Comp
 L power:GND #PWR0106
 U 1 1 5DC1A713
@@ -2084,4 +2078,26 @@ Wire Wire Line
 Connection ~ 8735 2885
 Wire Wire Line
 	8735 2885 8385 2885
+NoConn ~ 2640 1945
+NoConn ~ 2640 1845
+NoConn ~ 2640 1745
+Text Label 1240 845  2    50   ~ 0
+B+
+Text Label 2640 845  0    50   ~ 0
+B-
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5E57C502
+P 1340 3540
+F 0 "J2" H 1420 3532 50  0000 L CNN
+F 1 "JST" H 1420 3441 50  0000 L CNN
+F 2 "" H 1340 3540 50  0001 C CNN
+F 3 "~" H 1340 3540 50  0001 C CNN
+	1    1340 3540
+	1    0    0    -1  
+$EndComp
+Text Label 1140 3540 2    50   ~ 0
+B+
+Text Label 1140 3640 2    50   ~ 0
+B-
 $EndSCHEMATC
