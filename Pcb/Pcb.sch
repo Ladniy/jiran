@@ -31,32 +31,6 @@ Text Label 1240 945  2    50   ~ 0
 col0
 Text Label 1240 1045 2    50   ~ 0
 col1
-$Comp
-L Device:R_Small R29
-U 1 1 5DAAA6F2
-P 885 1245
-F 0 "R29" V 815 1245 50  0000 C CNN
-F 1 "4.7" V 885 1245 50  0000 C CNN
-F 2 "Used_Footprints:Resistor_Hybrid_1205" H 885 1245 50  0001 C CNN
-F 3 "~" H 885 1245 50  0001 C CNN
-	1    885  1245
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R30
-U 1 1 5DAAB292
-P 885 1545
-F 0 "R30" V 805 1545 50  0000 C CNN
-F 1 "4.7k" V 880 1545 50  0000 C CNN
-F 2 "Used_Footprints:Resistor_Hybrid_1205" H 885 1545 50  0001 C CNN
-F 3 "~" H 885 1545 50  0001 C CNN
-	1    885  1545
-	-1   0    0    1   
-$EndComp
-Text GLabel 810  1345 0    50   Input ~ 0
-SDA
-Text GLabel 810  1445 0    50   Input ~ 0
-SCL
 Text Label 1240 1545 2    50   ~ 0
 col2
 Text Label 1240 1645 2    50   ~ 0
@@ -1752,136 +1726,6 @@ Text GLabel 2425 3110 0    50   Input ~ 0
 RST
 Text GLabel 2640 1145 2    50   Input ~ 0
 RST
-Wire Wire Line
-	810  1345 885  1345
-Wire Wire Line
-	810  1445 885  1445
-Connection ~ 885  1445
-Wire Wire Line
-	885  1445 1240 1445
-Connection ~ 885  1345
-Wire Wire Line
-	885  1345 1240 1345
-$Comp
-L power:VCC #PWR0101
-U 1 1 5DBF6680
-P 885 1145
-F 0 "#PWR0101" H 885 995 50  0001 C CNN
-F 1 "VCC" H 902 1318 50  0000 C CNN
-F 2 "" H 885 1145 50  0001 C CNN
-F 3 "" H 885 1145 50  0001 C CNN
-	1    885  1145
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0102
-U 1 1 5DBF75FF
-P 885 1645
-F 0 "#PWR0102" H 885 1495 50  0001 C CNN
-F 1 "VCC" H 903 1818 50  0000 C CNN
-F 2 "" H 885 1645 50  0001 C CNN
-F 3 "" H 885 1645 50  0001 C CNN
-	1    885  1645
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5DC1A713
-P 805 3065
-F 0 "#PWR0106" H 805 2815 50  0001 C CNN
-F 1 "GND" V 800 2955 50  0000 R CNN
-F 2 "" H 805 3065 50  0001 C CNN
-F 3 "" H 805 3065 50  0001 C CNN
-	1    805  3065
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0107
-U 1 1 5DC1BBEB
-P 805 3165
-F 0 "#PWR0107" H 805 3015 50  0001 C CNN
-F 1 "VCC" V 805 3280 50  0000 L CNN
-F 2 "" H 805 3165 50  0001 C CNN
-F 3 "" H 805 3165 50  0001 C CNN
-	1    805  3165
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1085 2945 1085 3065
-Wire Wire Line
-	1085 3065 805  3065
-Wire Wire Line
-	1085 2895 1175 2895
-Wire Wire Line
-	1175 2895 1175 3165
-Wire Wire Line
-	1175 3165 805  3165
-$Comp
-L Jumper:Jumper_2_Bridged JP4
-U 1 1 5DC2DEC8
-P 1505 2965
-F 0 "JP4" H 1500 2935 50  0000 C CNN
-F 1 "Jumper" H 1505 3040 50  0000 C CNN
-F 2 "1symblos:Jumper" H 1505 2965 50  0001 C CNN
-F 3 "~" H 1505 2965 50  0001 C CNN
-	1    1505 2965
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Bridged JP5
-U 1 1 5DC322E4
-P 1505 3115
-F 0 "JP5" H 1500 3080 50  0000 C CNN
-F 1 "Jumper" H 1505 3020 50  0000 C CNN
-F 2 "1symblos:Jumper" H 1505 3115 50  0001 C CNN
-F 3 "~" H 1505 3115 50  0001 C CNN
-	1    1505 3115
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Bridged JP2
-U 1 1 5DC382C2
-P 1505 2515
-F 0 "JP2" H 1500 2485 50  0000 C CNN
-F 1 "Jumper" H 1505 2590 50  0000 C CNN
-F 2 "1symblos:Jumper" H 1505 2515 50  0001 C CNN
-F 3 "~" H 1505 2515 50  0001 C CNN
-	1    1505 2515
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Bridged JP3
-U 1 1 5DC382C8
-P 1505 2665
-F 0 "JP3" H 1500 2630 50  0000 C CNN
-F 1 "Jumper" H 1505 2570 50  0000 C CNN
-F 2 "1symblos:Jumper" H 1505 2665 50  0001 C CNN
-F 3 "~" H 1505 2665 50  0001 C CNN
-	1    1505 2665
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1085 2845 1305 2845
-Wire Wire Line
-	1305 2845 1305 2965
-Connection ~ 1305 2965
-Wire Wire Line
-	1305 2965 1305 3115
-Wire Wire Line
-	1085 2795 1305 2795
-Wire Wire Line
-	1305 2795 1305 2665
-Connection ~ 1305 2665
-Wire Wire Line
-	1305 2665 1305 2515
-Text GLabel 1705 2515 2    50   Input ~ 0
-SDA
-Text GLabel 1705 2665 2    50   Input ~ 0
-SCL
-Text GLabel 1705 2965 2    50   Input ~ 0
-SDA
-Text GLabel 1705 3115 2    50   Input ~ 0
-SCL
 $Comp
 L Mechanical:MountingHole HM1
 U 1 1 5DC03D38
@@ -2091,7 +1935,7 @@ U 1 1 5E57C502
 P 1340 3540
 F 0 "J2" H 1420 3532 50  0000 L CNN
 F 1 "JST" H 1420 3441 50  0000 L CNN
-F 2 "" H 1340 3540 50  0001 C CNN
+F 2 "Used_Footprints:JST_THT_2.0" H 1340 3540 50  0001 C CNN
 F 3 "~" H 1340 3540 50  0001 C CNN
 	1    1340 3540
 	1    0    0    -1  
@@ -2100,4 +1944,42 @@ Text Label 1140 3540 2    50   ~ 0
 B+
 Text Label 1140 3640 2    50   ~ 0
 B-
+Wire Wire Line
+	810  1345 1240 1345
+NoConn ~ 1240 1445
+Text Label 810  1345 2    50   ~ 0
+SDA
+Text Label 1085 2795 0    50   ~ 0
+SDA
+$Comp
+L power:GND #PWR?
+U 1 1 5E5516DF
+P 1310 2795
+F 0 "#PWR?" H 1310 2545 50  0001 C CNN
+F 1 "GND" H 1310 2645 50  0000 C CNN
+F 2 "" H 1310 2795 50  0001 C CNN
+F 3 "" H 1310 2795 50  0001 C CNN
+	1    1310 2795
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1085 2845 1310 2845
+Wire Wire Line
+	1310 2845 1310 2795
+$Comp
+L power:VCC #PWR?
+U 1 1 5E557C13
+P 1465 2795
+F 0 "#PWR?" H 1465 2645 50  0001 C CNN
+F 1 "VCC" H 1465 2950 50  0000 C CNN
+F 2 "" H 1465 2795 50  0001 C CNN
+F 3 "" H 1465 2795 50  0001 C CNN
+	1    1465 2795
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1465 2795 1465 2895
+Wire Wire Line
+	1465 2895 1085 2895
+NoConn ~ 1085 2945
 $EndSCHEMATC
