@@ -1913,21 +1913,6 @@ Wire Wire Line
 NoConn ~ 2640 1945
 NoConn ~ 2640 1845
 NoConn ~ 2640 1745
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5E57C502
-P 1340 3540
-F 0 "J2" H 1420 3532 50  0000 L CNN
-F 1 "JST" H 1420 3441 50  0000 L CNN
-F 2 "Used_Footprints:JST_THT_2.0" H 1340 3540 50  0001 C CNN
-F 3 "~" H 1340 3540 50  0001 C CNN
-	1    1340 3540
-	1    0    0    -1  
-$EndComp
-Text Label 1140 3540 2    50   ~ 0
-B+
-Text Label 1140 3640 2    50   ~ 0
-B-
 Wire Wire Line
 	810  1345 1240 1345
 NoConn ~ 1240 1445
