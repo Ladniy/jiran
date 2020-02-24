@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L kbd:ProMicro U1
-U 1 1 5DAA926E
-P 1940 1695
-F 0 "U1" H 1940 2732 60  0000 C CNN
-F 1 "ProMicro" H 1940 2626 60  0000 C CNN
-F 2 "Used_Footprints:ProMicro_Dual" H 2040 645 60  0001 C CNN
-F 3 "" H 2040 645 60  0000 C CNN
-	1    1940 1695
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2640 945 
 NoConn ~ 2640 1645
 Text Label 1240 945  2    50   ~ 0
@@ -86,7 +75,6 @@ F 3 "" H 1240 1145 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1240 1245 1240 1145
-Connection ~ 1240 1145
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5DAAE5C1
@@ -1925,25 +1913,6 @@ Wire Wire Line
 NoConn ~ 2640 1945
 NoConn ~ 2640 1845
 NoConn ~ 2640 1745
-Text Label 1240 845  2    50   ~ 0
-B+
-Text Label 2640 845  0    50   ~ 0
-B-
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5E57C502
-P 1340 3540
-F 0 "J2" H 1420 3532 50  0000 L CNN
-F 1 "JST" H 1420 3441 50  0000 L CNN
-F 2 "Used_Footprints:JST_THT_2.0" H 1340 3540 50  0001 C CNN
-F 3 "~" H 1340 3540 50  0001 C CNN
-	1    1340 3540
-	1    0    0    -1  
-$EndComp
-Text Label 1140 3540 2    50   ~ 0
-B+
-Text Label 1140 3640 2    50   ~ 0
-B-
 Wire Wire Line
 	810  1345 1240 1345
 NoConn ~ 1240 1445
@@ -1952,10 +1921,10 @@ SDA
 Text Label 1085 2795 0    50   ~ 0
 SDA
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5E5516DF
 P 1310 2795
-F 0 "#PWR?" H 1310 2545 50  0001 C CNN
+F 0 "#PWR0101" H 1310 2545 50  0001 C CNN
 F 1 "GND" H 1310 2645 50  0000 C CNN
 F 2 "" H 1310 2795 50  0001 C CNN
 F 3 "" H 1310 2795 50  0001 C CNN
@@ -1967,19 +1936,31 @@ Wire Wire Line
 Wire Wire Line
 	1310 2845 1310 2795
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0102
 U 1 1 5E557C13
-P 1465 2795
-F 0 "#PWR?" H 1465 2645 50  0001 C CNN
-F 1 "VCC" H 1465 2950 50  0000 C CNN
-F 2 "" H 1465 2795 50  0001 C CNN
-F 3 "" H 1465 2795 50  0001 C CNN
-	1    1465 2795
+P 1465 2845
+F 0 "#PWR0102" H 1465 2695 50  0001 C CNN
+F 1 "VCC" H 1465 3000 50  0000 C CNN
+F 2 "" H 1465 2845 50  0001 C CNN
+F 3 "" H 1465 2845 50  0001 C CNN
+	1    1465 2845
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1465 2795 1465 2895
+	1465 2845 1465 2945
 Wire Wire Line
-	1465 2895 1085 2895
-NoConn ~ 1085 2945
+	1465 2945 1085 2945
+NoConn ~ 1085 2895
+Connection ~ 1240 1145
+$Comp
+L kbd:ProMicro U1
+U 1 1 5DAA926E
+P 1940 1695
+F 0 "U1" H 1940 2732 60  0000 C CNN
+F 1 "ProMicro" H 1940 2626 60  0000 C CNN
+F 2 "Used_Footprints:ProMicro_Dual" H 2040 645 60  0001 C CNN
+F 3 "" H 2040 645 60  0000 C CNN
+	1    1940 1695
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
