@@ -1963,7 +1963,61 @@ SDA
 Text GLabel 725  1445 0    50   Input ~ 0
 SCL
 Wire Wire Line
-	725  1345 1240 1345
+	725  1345 810  1345
+$Comp
+L Device:R_Small R29
+U 1 1 5E5A5774
+P 810 1245
+F 0 "R29" H 869 1291 50  0000 L CNN
+F 1 "4.7K" H 869 1200 50  0000 L CNN
+F 2 "" H 810 1245 50  0001 C CNN
+F 3 "~" H 810 1245 50  0001 C CNN
+	1    810  1245
+	1    0    0    -1  
+$EndComp
+Connection ~ 810  1345
 Wire Wire Line
-	725  1445 1240 1445
+	810  1345 1240 1345
+$Comp
+L Device:R_Small R30
+U 1 1 5E5A67AE
+P 810 1545
+F 0 "R30" H 869 1591 50  0000 L CNN
+F 1 "4.7K" H 869 1500 50  0000 L CNN
+F 2 "" H 810 1545 50  0001 C CNN
+F 3 "~" H 810 1545 50  0001 C CNN
+	1    810  1545
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	725  1445 810  1445
+Connection ~ 810  1445
+Wire Wire Line
+	810  1445 1240 1445
+$Comp
+L power:VCC #PWR?
+U 1 1 5E5BBB5F
+P 810 1105
+F 0 "#PWR?" H 810 955 50  0001 C CNN
+F 1 "VCC" H 810 1250 50  0000 C CNN
+F 2 "" H 810 1105 50  0001 C CNN
+F 3 "" H 810 1105 50  0001 C CNN
+	1    810  1105
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5E5BC852
+P 810 1685
+F 0 "#PWR?" H 810 1535 50  0001 C CNN
+F 1 "VCC" H 810 1835 50  0000 C CNN
+F 2 "" H 810 1685 50  0001 C CNN
+F 3 "" H 810 1685 50  0001 C CNN
+	1    810  1685
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	810  1685 810  1645
+Wire Wire Line
+	810  1105 810  1145
 $EndSCHEMATC
