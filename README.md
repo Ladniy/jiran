@@ -1,2 +1,2 @@
 # jiran-breakoff
- Break off version of Jiran Keyboard
+ Jiran is a 6x4 matrix ergo keyboard with additional 3 thumb and 1 pinky keys.
