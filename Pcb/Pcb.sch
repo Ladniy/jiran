@@ -1913,11 +1913,6 @@ Wire Wire Line
 NoConn ~ 2640 1945
 NoConn ~ 2640 1845
 NoConn ~ 2640 1745
-Wire Wire Line
-	810  1345 1240 1345
-NoConn ~ 1240 1445
-Text Label 810  1345 2    50   ~ 0
-SDA
 Text Label 1085 2795 0    50   ~ 0
 SDA
 $Comp
@@ -1963,4 +1958,12 @@ F 3 "" H 2040 645 60  0000 C CNN
 	1    1940 1695
 	1    0    0    -1  
 $EndComp
+Text GLabel 725  1345 0    50   Input ~ 0
+SDA
+Text GLabel 725  1445 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	725  1345 1240 1345
+Wire Wire Line
+	725  1445 1240 1445
 $EndSCHEMATC
