@@ -214,6 +214,10 @@
     )
   )
   (placement
+    (component Used_Footprints:Silk_Logo_New
+      (place LG2 219920 -77210 back 0 (PN Silk_Logo_New))
+      (place LG1 219920 -77210 front 0 (PN Silk_Logo_New))
+    )
     (component Used_Footprints:ProMicro_Dual
       (place U1 220540 -78530 front 0 (PN ProMicro))
     )
@@ -258,36 +262,36 @@
       (place SW28 220010 -125330 front 180 (PN SW_Push))
     )
     (component "Used_Footprints:Diode_Hybrid_SOD-123"
-      (place D1 97430 -53900 front 90 (PN D_Small))
-      (place D3 135530 -44370 front 90 (PN D_Small))
-      (place D5 173630 -44380 front 90 (PN D_Small))
-      (place D7 97430 -72950 front 90 (PN D_Small))
-      (place D9 135530 -63420 front 90 (PN D_Small))
-      (place D11 173630 -63430 front 90 (PN D_Small))
-      (place D12 192680 -65710 front 90 (PN D_Small))
-      (place D14 116480 -89520 front 90 (PN D_Small))
-      (place D16 154580 -77710 front 90 (PN D_Small))
-      (place D19 97430 -111050 front 90 (PN D_Small))
-      (place D21 135530 -101520 front 90 (PN D_Small))
-      (place D23 173630 -101530 front 90 (PN D_Small))
-      (place D25 78380 -87230 front 90 (PN D_Small))
-      (place D28 211730 -125330 front 90 (PN D_Small))
+      (place D1 97430 -53900 front 90 (PN 1N4148))
+      (place D3 135530 -44370 front 90 (PN 1N4148))
+      (place D5 173630 -44380 front 90 (PN 1N4148))
+      (place D7 97430 -72950 front 90 (PN 1N4148))
+      (place D9 135530 -63420 front 90 (PN 1N4148))
+      (place D11 173630 -63430 front 90 (PN 1N4148))
+      (place D12 192680 -65710 front 90 (PN 1N4148))
+      (place D14 116480 -89520 front 90 (PN 1N4148))
+      (place D16 154580 -77710 front 90 (PN 1N4148))
+      (place D19 97430 -111050 front 90 (PN 1N4148))
+      (place D21 135530 -101520 front 90 (PN 1N4148))
+      (place D23 173630 -101530 front 90 (PN 1N4148))
+      (place D25 78380 -87230 front 90 (PN 1N4148))
+      (place D28 211730 -125330 front 90 (PN 1N4148))
     )
     (component "Used_Footprints:Diode_Hybrid_SOD-123::1"
-      (place D2 116480 -51420 front 90 (PN D_Small))
-      (place D4 154580 -39610 front 90 (PN D_Small))
-      (place D6 192680 -46660 front 90 (PN D_Small))
-      (place D8 116480 -70470 front 90 (PN D_Small))
-      (place D10 154580 -58660 front 90 (PN D_Small))
-      (place D13 97430 -92000 front 90 (PN D_Small))
-      (place D15 135530 -82470 front 90 (PN D_Small))
-      (place D17 173630 -82480 front 90 (PN D_Small))
-      (place D18 192680 -84760 front 90 (PN D_Small))
-      (place D20 116480 -108570 front 90 (PN D_Small))
-      (place D22 154580 -96760 front 90 (PN D_Small))
-      (place D24 192680 -103810 front 90 (PN D_Small))
-      (place D26 173630 -120580 front 90 (PN D_Small))
-      (place D27 192680 -122860 front 90 (PN D_Small))
+      (place D2 116480 -51420 front 90 (PN 1N4148))
+      (place D4 154580 -39610 front 90 (PN 1N4148))
+      (place D6 192680 -46660 front 90 (PN 1N4148))
+      (place D8 116480 -70470 front 90 (PN 1N4148))
+      (place D10 154580 -58660 front 90 (PN 1N4148))
+      (place D13 97430 -92000 front 90 (PN 1N4148))
+      (place D15 135530 -82470 front 90 (PN 1N4148))
+      (place D17 173630 -82480 front 90 (PN 1N4148))
+      (place D18 192680 -84760 front 90 (PN 1N4148))
+      (place D20 116480 -108570 front 90 (PN 1N4148))
+      (place D22 154580 -96760 front 90 (PN 1N4148))
+      (place D24 192680 -103810 front 90 (PN 1N4148))
+      (place D26 173630 -120580 front 90 (PN 1N4148))
+      (place D27 192680 -122860 front 90 (PN 1N4148))
     )
     (component Used_Footprints:LED_THT_1.8mm
       (place D29 105710 -58970 front 0 (PN LED_Small))
@@ -325,40 +329,42 @@
       (place J1 227610 -106740 front 270 (PN TRRS))
     )
     (component "Used_Footprints:Mosfet_SMD_Dual_SOT-23"
-      (place Q1 223310 -97890 front 180 (PN 2N7002))
+      (place Q1 212690 -97240 front 270 (PN 2N7002))
     )
     (component Used_Footprints:Resistor_Hybrid_1205
-      (place R1 105710 -61880 front 0 (PN R_Small))
-      (place R3 143810 -52350 front 0 (PN R_Small))
-      (place R5 181910 -52360 front 0 (PN R_Small))
-      (place R7 105710 -80930 front 0 (PN R_Small))
-      (place R9 143810 -71400 front 0 (PN R_Small))
-      (place R11 181910 -71410 front 0 (PN R_Small))
-      (place R13 105710 -99980 front 0 (PN R_Small))
-      (place R15 143810 -90450 front 0 (PN R_Small))
-      (place R17 181910 -90460 front 0 (PN R_Small))
-      (place R19 105710 -119030 front 0 (PN R_Small))
-      (place R21 143810 -109500 front 0 (PN R_Small))
-      (place R23 181910 -109510 front 0 (PN R_Small))
-      (place R25 86660 -95210 front 0 (PN R_Small))
-      (place R31 219110 -101690 front 0 (PN 100k))
-      (place R26 181910 -128560 front 0 (PN R_Small))
-      (place R28 220010 -133310 front 0 (PN R_Small))
+      (place R1 105710 -61880 front 0 (PN 300R))
+      (place R3 143810 -52350 front 0 (PN 300R))
+      (place R5 181910 -52360 front 0 (PN 300R))
+      (place R7 105710 -80930 front 0 (PN 300R))
+      (place R9 143810 -71400 front 0 (PN 300R))
+      (place R11 181910 -71410 front 0 (PN 300R))
+      (place R13 105710 -99980 front 0 (PN 300R))
+      (place R15 143810 -90450 front 0 (PN 300R))
+      (place R17 181910 -90460 front 0 (PN 300R))
+      (place R19 105710 -119030 front 0 (PN 300R))
+      (place R21 143810 -109500 front 0 (PN 300R))
+      (place R23 181910 -109510 front 0 (PN 300R))
+      (place R25 86660 -95210 front 0 (PN 300R))
+      (place R31 220030 -96170 front 0 (PN 100k))
+      (place R26 181910 -128560 front 0 (PN 300R))
+      (place R28 220010 -133310 front 0 (PN 300R))
+      (place R30 220030 -99100 front 0 (PN 4.7K))
     )
     (component Used_Footprints:Resistor_Hybrid_1205::1
-      (place R2 124760 -59400 front 0 (PN R_Small))
-      (place R4 162860 -47590 front 0 (PN R_Small))
-      (place R6 200960 -54640 front 0 (PN R_Small))
-      (place R8 124760 -78450 front 0 (PN R_Small))
-      (place R10 162860 -66640 front 0 (PN R_Small))
-      (place R12 200960 -73690 front 0 (PN R_Small))
-      (place R14 124760 -97500 front 0 (PN R_Small))
-      (place R16 162860 -85690 front 0 (PN R_Small))
-      (place R18 200960 -92740 front 0 (PN R_Small))
-      (place R20 124760 -116550 front 0 (PN R_Small))
-      (place R22 162860 -104740 front 0 (PN R_Small))
-      (place R24 200960 -111790 front 0 (PN R_Small))
-      (place R27 200960 -130840 front 0 (PN R_Small))
+      (place R2 124760 -59400 front 0 (PN 300R))
+      (place R4 162860 -47590 front 0 (PN 300R))
+      (place R6 200960 -54640 front 0 (PN 300R))
+      (place R8 124760 -78450 front 0 (PN 300R))
+      (place R10 162860 -66640 front 0 (PN 300R))
+      (place R12 200960 -73690 front 0 (PN 300R))
+      (place R14 124760 -97500 front 0 (PN 300R))
+      (place R16 162860 -85690 front 0 (PN 300R))
+      (place R18 200960 -92740 front 0 (PN 300R))
+      (place R20 124760 -116550 front 0 (PN 300R))
+      (place R22 162860 -104740 front 0 (PN 300R))
+      (place R24 200960 -111790 front 0 (PN 300R))
+      (place R27 200960 -130840 front 0 (PN 300R))
+      (place R29 220030 -102030 front 180 (PN 4.7K))
     )
     (component Used_Footprints:Switch_Reset_THT
       (place SW29 227580 -99100 front 90 (PN SW_Push))
@@ -367,8 +373,18 @@
       (place HC1 213010 -112834 front 0 (PN CoverHole))
       (place HC2 227010 -112834 front 0 (PN CoverHole))
     )
+    (component Used_Footprints:Jumper_SMD
+      (place JP1 212690 -104620 back 270 (PN Jumper))
+      (place JP3 212690 -108840 front 90 (PN Jumper))
+    )
+    (component Used_Footprints:Jumper_SMD::1
+      (place JP2 212690 -104620 front 90 (PN Jumper))
+      (place JP4 212690 -108840 back 270 (PN Jumper))
+    )
   )
   (library
+    (image Used_Footprints:Silk_Logo_New
+    )
     (image Used_Footprints:ProMicro_Dual
       (outline (path signal 120  7290.05 13210  7209.65 12831.7  6982.33 12518.8  6647.4 12325.5
             6262.78 12285  5894.97 12404.5  5607.57 12663.3  5450.27 13016.6
@@ -577,6 +593,14 @@
     (image Used_Footprints:Hole_Cover_M2
       (pin Round[A]Pad_4000_um 1 0 0)
     )
+    (image Used_Footprints:Jumper_SMD
+      (pin RoundRect[T]Pad_635x1143_127.483_um 1 -500.38 0)
+      (pin RoundRect[T]Pad_635x1143_127.483_um 2 500.38 0)
+    )
+    (image Used_Footprints:Jumper_SMD::1
+      (pin RoundRect[T]Pad_635x1143_127.483_um 2 500.38 0)
+      (pin RoundRect[T]Pad_635x1143_127.483_um 1 -500.38 0)
+    )
     (padstack Round[A]Pad_1397_um
       (shape (circle F.Cu 1397))
       (shape (circle B.Cu 1397))
@@ -667,6 +691,20 @@
             -592.33 750.475  -567.24 786.308  -536.308 817.24  -500.476 842.33
             -460.83 860.817  -418.577 872.138  -375 875.951  375 875.951
             418.577 872.138))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_635x1143_127.483_um
+      (shape (polygon F.Cu 0  212.637 570.046  234.102 564.295  254.241 554.904  272.444 542.158
+            288.158 526.444  300.904 508.242  310.295 488.102  316.046 466.637
+            317.983 444.5  317.983 -444.5  316.046 -466.637  310.295 -488.102
+            300.904 -508.241  288.158 -526.444  272.444 -542.158  254.242 -554.904
+            234.102 -564.295  212.637 -570.046  190.5 -571.983  -190.5 -571.983
+            -212.637 -570.046  -234.102 -564.295  -254.241 -554.904  -272.444 -542.158
+            -288.158 -526.444  -300.904 -508.242  -310.295 -488.102  -316.046 -466.637
+            -317.983 -444.5  -317.983 444.5  -316.046 466.637  -310.295 488.102
+            -300.904 508.241  -288.158 526.444  -272.444 542.158  -254.242 554.904
+            -234.102 564.295  -212.637 570.046  -190.5 571.983  190.5 571.983
+            212.637 570.046))
       (attach off)
     )
     (padstack RoundRect[T]Pad_900x1200_180.685_um
@@ -897,7 +935,8 @@
     (net VCC
       (pins U1-21 U1-21@1 D29-2 D30-2 D31-2 D32-2 D33-2 D34-2 D35-2 D36-2 D37-2 D38-2
         D39-2 D40-2 D41-2 D42-2 D43-2 D44-2 D45-2 D46-2 D47-2 D48-2 D49-2 D50-2 D51-2
-        D52-2 D53-2 J1-B J1-B@1 D54-2 D55-2 D56-2)
+        D52-2 D53-2 J1-C J1-C@1 D54-2 D55-2 D56-2 R29-1 R29-1@1 R29-1@2 R29-1@3 R29-1@4
+        R30-2 R30-2@1 R30-2@2 R30-2@3 R30-2@4)
     )
     (net "Net-(D30-Pad1)"
       (pins D30-1 R2-1 R2-1@1 R2-1@2 R2-1@3 R2-1@4)
@@ -980,11 +1019,8 @@
     (net "Net-(D56-Pad1)"
       (pins D56-1 R28-1 R28-1@1 R28-1@2 R28-1@3 R28-1@4)
     )
-    (net RST
-      (pins U1-22 U1-22@1 SW29-1)
-    )
     (net GND
-      (pins U1-4 U1-3 U1-4@1 U1-23 U1-23@1 U1-3@1 J1-D Q1-2 Q1-2@1 SW29-2)
+      (pins U1-4 U1-3 U1-4@1 U1-23 U1-23@1 U1-3@1 J1-B J1-B@1 Q1-2 Q1-2@1 SW29-2)
     )
     (net /LEDOut
       (pins Q1-3 Q1-3@1 R1-2 R1-2@1 R1-2@2 R1-2@3 R1-2@4 R2-2 R2-2@1 R2-2@2 R2-2@3
@@ -1041,39 +1077,44 @@
     (net "Net-(U1-Pad15)"
       (pins U1-15 U1-15@1)
     )
-    (net /SDA
-      (pins U1-5 U1-5@1 J1-A)
-    )
-    (net "Net-(J1-PadC)"
-      (pins J1-C J1-C@1)
-    )
     (net "Net-(U1-Pad14)"
       (pins U1-14 U1-14@1)
-    )
-    (net "Net-(U1-Pad6)"
-      (pins U1-6 U1-6@1)
     )
     (net "Net-(U1-Pad24)"
       (pins U1-24 U1-24@1)
     )
-    (class kicad_default "" /B+ "/B-" /LED /LEDOut /SDA /col0 /col1 /col2
-      /col3 /col4 /col5 /rowA /rowB /rowC /rowD /rowE GND "Net-(D1-Pad2)"
-      "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)"
-      "Net-(D14-Pad2)" "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)"
-      "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)"
-      "Net-(D22-Pad2)" "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D25-Pad2)"
-      "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(D28-Pad2)" "Net-(D29-Pad1)"
-      "Net-(D3-Pad2)" "Net-(D30-Pad1)" "Net-(D31-Pad1)" "Net-(D32-Pad1)" "Net-(D33-Pad1)"
-      "Net-(D34-Pad1)" "Net-(D35-Pad1)" "Net-(D36-Pad1)" "Net-(D37-Pad1)"
-      "Net-(D38-Pad1)" "Net-(D39-Pad1)" "Net-(D4-Pad2)" "Net-(D40-Pad1)" "Net-(D41-Pad1)"
-      "Net-(D42-Pad1)" "Net-(D43-Pad1)" "Net-(D44-Pad1)" "Net-(D45-Pad1)"
-      "Net-(D46-Pad1)" "Net-(D47-Pad1)" "Net-(D48-Pad1)" "Net-(D49-Pad1)"
-      "Net-(D5-Pad2)" "Net-(D50-Pad1)" "Net-(D51-Pad1)" "Net-(D52-Pad1)" "Net-(D53-Pad1)"
-      "Net-(D54-Pad1)" "Net-(D55-Pad1)" "Net-(D56-Pad1)" "Net-(D6-Pad2)" "Net-(D7-Pad2)"
-      "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(J1-PadC)" "Net-(Q1-Pad1)" "Net-(U1-Pad14)"
-      "Net-(U1-Pad15)" "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U1-Pad18)"
-      "Net-(U1-Pad24)" "Net-(U1-Pad25)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" RST
-      VCC
+    (net "Net-(J1-PadD)"
+      (pins J1-D JP3-1 JP4-1)
+    )
+    (net "Net-(J1-PadA)"
+      (pins J1-A JP1-1 JP2-1)
+    )
+    (net SDA
+      (pins U1-5 U1-5@1 R29-2 R29-2@1 R29-2@2 R29-2@3 R29-2@4 JP1-2 JP3-2)
+    )
+    (net SCL
+      (pins U1-6 U1-6@1 R30-1 R30-1@1 R30-1@2 R30-1@3 R30-1@4 JP2-2 JP4-2)
+    )
+    (net /RST
+      (pins U1-22 U1-22@1 SW29-1)
+    )
+    (class kicad_default "" /LED /LEDOut /RST /SDA /col0 /col1 /col2 /col3
+      /col4 /col5 /rowA /rowB /rowC /rowD /rowE GND "Net-(D1-Pad2)" "Net-(D10-Pad2)"
+      "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)"
+      "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)"
+      "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" "Net-(D22-Pad2)"
+      "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D25-Pad2)" "Net-(D26-Pad2)"
+      "Net-(D27-Pad2)" "Net-(D28-Pad2)" "Net-(D29-Pad1)" "Net-(D3-Pad2)" "Net-(D30-Pad1)"
+      "Net-(D31-Pad1)" "Net-(D32-Pad1)" "Net-(D33-Pad1)" "Net-(D34-Pad1)"
+      "Net-(D35-Pad1)" "Net-(D36-Pad1)" "Net-(D37-Pad1)" "Net-(D38-Pad1)"
+      "Net-(D39-Pad1)" "Net-(D4-Pad2)" "Net-(D40-Pad1)" "Net-(D41-Pad1)" "Net-(D42-Pad1)"
+      "Net-(D43-Pad1)" "Net-(D44-Pad1)" "Net-(D45-Pad1)" "Net-(D46-Pad1)"
+      "Net-(D47-Pad1)" "Net-(D48-Pad1)" "Net-(D49-Pad1)" "Net-(D5-Pad2)" "Net-(D50-Pad1)"
+      "Net-(D51-Pad1)" "Net-(D52-Pad1)" "Net-(D53-Pad1)" "Net-(D54-Pad1)"
+      "Net-(D55-Pad1)" "Net-(D56-Pad1)" "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)"
+      "Net-(D9-Pad2)" "Net-(J1-PadA)" "Net-(J1-PadC)" "Net-(J1-PadD)" "Net-(Q1-Pad1)"
+      "Net-(U1-Pad14)" "Net-(U1-Pad15)" "Net-(U1-Pad16)" "Net-(U1-Pad17)"
+      "Net-(U1-Pad24)" "Net-(U1-Pad6)" RST SCL SDA VCC
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
