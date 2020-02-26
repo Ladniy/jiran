@@ -2469,7 +2469,7 @@
   (module Used_Footprints:Diode_Hybrid_SOD-123 (layer F.Cu) (tedit 5E2807E1) (tstamp 5E4508EC)
     (at 97.43 53.9 90)
     (path /5DACBEC8)
-    (fp_text reference D1 (at 0 1.48 90) (layer Dwgs.User)
+    (fp_text reference D1 (at 0 1.48 90) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1N4148 (at 0 -1.44 90) (layer F.Fab) hide
@@ -2500,7 +2500,7 @@
   (module Used_Footprints:Diode_Hybrid_SOD-123 (layer F.Cu) (tedit 5E2807E1) (tstamp 5E44EBDC)
     (at 116.48 51.42 90)
     (path /5DACCFB7)
-    (fp_text reference D2 (at 0 1.48 90) (layer Dwgs.User)
+    (fp_text reference D2 (at 0 1.48 90) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1N4148 (at 0 -1.44 90) (layer F.Fab) hide
