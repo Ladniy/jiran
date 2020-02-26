@@ -4049,7 +4049,7 @@
       (net 80 SDA))
   )
 
-  (module Used_Footprints:Resistor_Hybrid_1205 (layer F.Cu) (tedit 5E28092A) (tstamp 5E5672A4)
+  (module Used_Footprints:Resistor_Hybrid_1205 (layer F.Cu) (tedit 5E28092A) (tstamp 5E56985D)
     (at 220.03 99.1)
     (path /5E5A67AE)
     (fp_text reference R30 (at 0.01 1.78) (layer F.SilkS) hide
