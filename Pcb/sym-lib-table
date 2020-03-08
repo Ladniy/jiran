@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/Pcb-rescue.lib)(options "")(descr ""))
+)
