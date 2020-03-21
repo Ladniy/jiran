@@ -11,6 +11,6 @@ Based on the [Jian](https://github.com/KGOH/Jian-Info) keyboard.
 * __Firmware:__ [QMK](https://github.com/Ladniy/qmk_firmware)
 * __Building guide:__ not available yet
 
-Check out [wiki-page](https://github.com/Ladniy/jiran-breakoff/wiki) for more information
+Check out [wiki-page](https://github.com/Ladniy/jiran-breakoff/wiki) for more information.
 
 [![MechChurch](https://i.imgur.com/QHzKmkz.png)](https://t.me/s/mechchurch) Supported by [MechChurch](https://t.me/s/mechchurch) community
