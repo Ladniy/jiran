@@ -9,7 +9,7 @@ Based on the [Jian](https://github.com/KGOH/Jian-Info) keyboard.
 * __Layout:__ [keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/#/gists/0547cd126f61f8c3f76b0a9952901da4)
 * __Hardware Availability:__ open source, t.me/ladniys
 * __Firmware:__ [QMK](https://github.com/Ladniy/qmk_firmware)
-* __Building guide:__ not available yet
+* __Building guide:__ [Wiki](https://github.com/Ladniy/jiran-breakoff/wiki)
 
 Check out [wiki-page](https://github.com/Ladniy/jiran-breakoff/wiki) for more information.
 
