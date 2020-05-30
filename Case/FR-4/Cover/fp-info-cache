@@ -1,4 +1,4 @@
-17806941024460327
+17814896221833821
 Alps_Only
 ALPS-1.5U
 
@@ -53386,7 +53386,7 @@ MXOnly-1U-Hotswap
 
 
 0
-2
+4
 2
 MX_Only
 MXOnly-1U-Hotswap-Antishear
@@ -77203,6 +77203,13 @@ Wurth-632723300011-MaximumExtensionMount
 32
 27
 Used_Footprints
+Charm
+
+
+0
+0
+0
+Used_Footprints
 Cutout
 
 
@@ -77215,6 +77222,13 @@ Diode_Hybrid_SOD-123
 
 0
 10
+2
+Used_Footprints
+Diode_SMD_SOD-123
+
+
+0
+6
 2
 Used_Footprints
 Hole_Cover_M2
@@ -77273,6 +77287,20 @@ Resistor_Hybrid_1205
 10
 2
 Used_Footprints
+Resistor_SMD_1206
+
+
+0
+6
+2
+Used_Footprints
+SK6812MINI
+
+
+0
+8
+4
+Used_Footprints
 Silk_Cover
 
 
@@ -77299,6 +77327,13 @@ Switch_MxAlpsChoc_MillMax_1u
 
 0
 7
+2
+Used_Footprints
+Switch_Mx_Hotswap_1u
+
+
+0
+4
 2
 Used_Footprints
 Switch_Reset_THT
