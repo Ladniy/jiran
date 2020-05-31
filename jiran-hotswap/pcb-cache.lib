@@ -148,22 +148,6 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# corne-classic-rescue_SK6812MINI-kbd
-#
-DEF corne-classic-rescue_SK6812MINI-kbd L 0 40 Y Y 1 F N
-F0 "L" 0 0 51 H V C CNN
-F1 "corne-classic-rescue_SK6812MINI-kbd" 0 -50 16 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S -150 150 150 -150 0 1 0 N
-X DOUT 1 -200 100 47 R 28 28 1 1 O
-X VSS 2 -200 -100 47 R 28 28 1 1 W
-X DIN 3 200 -100 47 L 28 28 1 1 I
-X VDD 4 200 100 47 L 28 28 1 1 W
-ENDDRAW
-ENDDEF
-#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P
