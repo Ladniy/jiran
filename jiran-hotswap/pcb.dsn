@@ -132,32 +132,6 @@
             177750 -43990  177750 -41690  158740 -41690  158740 -36890  139550 -36890
             139550 -41790  120450 -41790  120450 -48690  101450 -48690  101450 -51190
             82350 -51190  82350 -84590  63350 -84590))
-    (keepout "" (polygon signal 0  204510 -135470  204510 -139970  208010 -139970  208010 -135470
-            204510 -135470))
-    (keepout "" (polygon signal 0  185460 -133000  185460 -137500  188960 -137500  188960 -133000
-            185460 -133000))
-    (keepout "" (polygon signal 0  166410 -130720  166410 -135220  169910 -135220  169910 -130720
-            166410 -130720))
-    (keepout "" (polygon signal 0  90210 -121190  90210 -125690  93710 -125690  93710 -121190
-            90210 -121190))
-    (keepout "" (polygon signal 0  109260 -118710  109260 -123210  112760 -123210  112760 -118710
-            109260 -118710))
-    (keepout "" (polygon signal 0  185460 -113950  185460 -118450  188960 -118450  188960 -113950
-            185460 -113950))
-    (keepout "" (polygon signal 0  166410 -111670  166410 -116170  169910 -116170  169910 -111670
-            166410 -111670))
-    (keepout "" (polygon signal 0  128310 -111660  128310 -116160  131810 -116160  131810 -111660
-            128310 -111660))
-    (keepout "" (polygon signal 0  147360 -106900  147360 -111400  150860 -111400  150860 -106900
-            147360 -106900))
-    (keepout "" (polygon signal 0  90210 -102140  90210 -106640  93710 -106640  93710 -102140
-            90210 -102140))
-    (keepout "" (polygon signal 0  109260 -99660  109260 -104160  112760 -104160  112760 -99660
-            109260 -99660))
-    (keepout "" (polygon signal 0  71160 -97370  71160 -101870  74660 -101870  74660 -97370
-            71160 -97370))
-    (keepout "" (polygon signal 0  185460 -94900  185460 -99400  188960 -99400  188960 -94900
-            185460 -94900))
     (keepout "" (polygon signal 0  81888.7 -92545  81752.2 -92585.1  81632.4 -92662.1  81539.2 -92769.6
             81480.1 -92899.1  81459.8 -93040  81459.9 -97760  81480.2 -97900.9
             81539.3 -98030.4  81632.5 -98137.9  81752.3 -98214.9  81888.8 -98255
@@ -165,24 +139,6 @@
             82439.8 -97900.9  82460.1 -97760  82460 -93040  82439.7 -92899.1
             82380.6 -92769.6  82287.4 -92662.1  82167.6 -92585.1  82031.1 -92545
             81888.7 -92545))
-    (keepout "" (polygon signal 0  166410 -92620  166410 -97120  169910 -97120  169910 -92620
-            166410 -92620))
-    (keepout "" (polygon signal 0  128310 -92610  128310 -97110  131810 -97110  131810 -92610
-            128310 -92610))
-    (keepout "" (polygon signal 0  147360 -87850  147360 -92350  150860 -92350  150860 -87850
-            147360 -87850))
-    (keepout "" (polygon signal 0  90210 -83090  90210 -87590  93710 -87590  93710 -83090
-            90210 -83090))
-    (keepout "" (polygon signal 0  109260 -80610  109260 -85110  112760 -85110  112760 -80610
-            109260 -80610))
-    (keepout "" (polygon signal 0  185460 -75850  185460 -80350  188960 -80350  188960 -75850
-            185460 -75850))
-    (keepout "" (polygon signal 0  166410 -73570  166410 -78070  169910 -78070  169910 -73570
-            166410 -73570))
-    (keepout "" (polygon signal 0  128310 -73560  128310 -78060  131810 -78060  131810 -73560
-            128310 -73560))
-    (keepout "" (polygon signal 0  147360 -68800  147360 -73300  150860 -73300  150860 -68800
-            147360 -68800))
     (keepout "" (polygon signal 0  121040 -60280  120845 -60299.2  120657 -60356.1  120484 -60448.5
             120333 -60572.9  120209 -60724.4  120116 -60897.3  120059 -61084.9
             120040 -61280  120040 -66330  120021 -66525.1  119964 -66712.7
@@ -208,10 +164,6 @@
             128563 -61029.9  128613 -60909.3  128630 -60779.9  128613 -60650.5
             128563 -60529.9  128484 -60426.3  128380 -60346.8  128259 -60296.8
             128130 -60279.8  121040 -60280))
-    (keepout "" (polygon signal 0  90210 -64040  90210 -68540  93710 -68540  93710 -64040
-            90210 -64040))
-    (keepout "" (polygon signal 0  109260 -61560  109260 -66060  112760 -66060  112760 -61560
-            109260 -61560))
     (keepout "" (polygon signal 0  150911 -55546.9  150790 -55596.9  150687 -55676.4  150607 -55780
             150557 -55900.6  150540 -56030  150557 -56159.4  150607 -56280.1
             150687 -56383.6  150790 -56463.1  150911 -56513.1  151040 -56530.1
@@ -237,8 +189,6 @@
             159130 -56530  159111 -56334.9  159054 -56147.3  158961 -55974.4
             158837 -55822.9  158686 -55698.5  158513 -55606.1  158325 -55549.2
             158130 -55530  151040 -55529.9  150911 -55546.9))
-    (keepout "" (polygon signal 0  185460 -56800  185460 -61300  188960 -61300  188960 -56800
-            185460 -56800))
     (keepout "" (polygon signal 0  140090 -55530  139895 -55549.2  139707 -55606.1  139534 -55698.5
             139383 -55822.9  139259 -55974.4  139166 -56147.3  139109 -56334.9
             139090 -56530  139090 -59280  139071 -59475.1  139014 -59662.7
@@ -255,12 +205,6 @@
             147613 -56279.9  147663 -56159.3  147680 -56029.9  147663 -55900.5
             147613 -55779.9  147534 -55676.3  147430 -55596.8  147309 -55546.8
             147180 -55529.8  140090 -55530))
-    (keepout "" (polygon signal 0  166410 -54520  166410 -59020  169910 -59020  169910 -54520
-            166410 -54520))
-    (keepout "" (polygon signal 0  128310 -54510  128310 -59010  131810 -59010  131810 -54510
-            128310 -54510))
-    (keepout "" (polygon signal 0  147360 -49750  147360 -54250  150860 -54250  150860 -49750
-            147360 -49750))
     (via "Via[0-1]_800:400_um")
     (rule
       (width 170)
@@ -271,8 +215,8 @@
   )
   (placement
     (component Used_Footprints:Silk_Logo_New
-      (place LG2 206140 -83900 back 0 (PN Silk_Logo_New))
-      (place LG1 206150 -83900 front 0 (PN Silk_Logo_New))
+      (place LG2 206223 -84404.2 back 0 (PN Silk_Logo_New))
+      (place LG1 206223 -84404.2 front 0 (PN Silk_Logo_New))
     )
     (component "Used_Footprints:Diode_SMD_SOD-123"
       (place D28 198510 -133870 front 90 (PN 1N4148))
@@ -368,38 +312,6 @@
     )
     (component Used_Footprints:TRSS_DUAL_THT
       (place J1 213860 -113630 front 270 (PN TRRS))
-    )
-    (component Used_Footprints:SK6812MINI
-      (place L1 91960 -66290 front 0 (PN "SK6812MINI-kbd"))
-      (place L3 130060 -56760 front 0 (PN "SK6812MINI-kbd"))
-      (place L5 168160 -56770 front 0 (PN "SK6812MINI-kbd"))
-      (place L7 91960 -85340 front 0 (PN "SK6812MINI-kbd"))
-      (place L9 130060 -75810 front 0 (PN "SK6812MINI-kbd"))
-      (place L11 168160 -75820 front 0 (PN "SK6812MINI-kbd"))
-      (place L13 91960 -104390 front 0 (PN "SK6812MINI-kbd"))
-      (place L15 130060 -94860 front 0 (PN "SK6812MINI-kbd"))
-      (place L17 168160 -94870 front 0 (PN "SK6812MINI-kbd"))
-      (place L19 91960 -123440 front 0 (PN "SK6812MINI-kbd"))
-      (place L21 130060 -113910 front 0 (PN "SK6812MINI-kbd"))
-      (place L23 168160 -113920 front 0 (PN "SK6812MINI-kbd"))
-      (place L25 72910 -99620 front 0 (PN "SK6812MINI-kbd"))
-      (place L27 187210 -135250 front 0 (PN "SK6812MINI-kbd"))
-    )
-    (component Used_Footprints:SK6812MINI::1
-      (place L2 111010 -63810 front 0 (PN "SK6812MINI-kbd"))
-      (place L4 149110 -52000 front 0 (PN "SK6812MINI-kbd"))
-      (place L6 187210 -59050 front 0 (PN "SK6812MINI-kbd"))
-      (place L8 111010 -82860 front 0 (PN "SK6812MINI-kbd"))
-      (place L10 149110 -71050 front 0 (PN "SK6812MINI-kbd"))
-      (place L12 187210 -78100 front 0 (PN "SK6812MINI-kbd"))
-      (place L14 111010 -101910 front 0 (PN "SK6812MINI-kbd"))
-      (place L16 149110 -90100 front 0 (PN "SK6812MINI-kbd"))
-      (place L18 187210 -97150 front 0 (PN "SK6812MINI-kbd"))
-      (place L20 111010 -120960 front 0 (PN "SK6812MINI-kbd"))
-      (place L22 149110 -109150 front 0 (PN "SK6812MINI-kbd"))
-      (place L24 187210 -116200 front 0 (PN "SK6812MINI-kbd"))
-      (place L26 168160 -132970 front 0 (PN "SK6812MINI-kbd"))
-      (place L28 206260 -137720 front 0 (PN "SK6812MINI-kbd"))
     )
   )
   (library
@@ -577,50 +489,6 @@
       (keepout "" (circle F.Cu 1200 0 -1500))
       (keepout "" (circle B.Cu 1200 0 -1500))
     )
-    (image Used_Footprints:SK6812MINI
-      (outline (path signal 150  -1750 2250  -1750 -2250))
-      (outline (path signal 150  -1750 2250  1750 2250))
-      (outline (path signal 150  1750 -2250  -1750 -2250))
-      (outline (path signal 300  1380 150  1380 1600))
-      (outline (path signal 150  1750 2250  1750 -2250))
-      (outline (path signal 300  1380 1600  3430 1600))
-      (outline (path signal 300  3430 -1600  1380 -1600))
-      (outline (path signal 300  1380 -1600  1380 -150))
-      (outline (path signal 300  3430 -150  3430 -1600))
-      (outline (path signal 300  3430 150  1380 150))
-      (outline (path signal 300  3430 1600  3430 150))
-      (outline (path signal 300  1380 -150  3430 -150))
-      (pin Rect[T]Pad_1600x1000_um 1 -2400 -875)
-      (pin Rect[B]Pad_1600x1000_um 2 -2400 -875)
-      (pin Rect[B]Pad_1600x1000_um 3 2400 -875)
-      (pin Rect[T]Pad_1600x1000_um 2@1 -2400 875)
-      (pin Rect[T]Pad_1600x1000_um 3@1 2400 875)
-      (pin Rect[B]Pad_1600x1000_um 4 2400 875)
-      (pin Rect[T]Pad_1600x1000_um 4@1 2400 -875)
-      (pin Rect[B]Pad_1600x1000_um 1@1 -2400 875)
-    )
-    (image Used_Footprints:SK6812MINI::1
-      (outline (path signal 300  1380 -150  3430 -150))
-      (outline (path signal 300  3430 1600  3430 150))
-      (outline (path signal 300  3430 150  1380 150))
-      (outline (path signal 300  3430 -150  3430 -1600))
-      (outline (path signal 300  1380 -1600  1380 -150))
-      (outline (path signal 300  3430 -1600  1380 -1600))
-      (outline (path signal 300  1380 1600  3430 1600))
-      (outline (path signal 150  1750 2250  1750 -2250))
-      (outline (path signal 300  1380 150  1380 1600))
-      (outline (path signal 150  1750 -2250  -1750 -2250))
-      (outline (path signal 150  -1750 2250  1750 2250))
-      (outline (path signal 150  -1750 2250  -1750 -2250))
-      (pin Rect[B]Pad_1600x1000_um 1 -2400 875)
-      (pin Rect[T]Pad_1600x1000_um 4 2400 -875)
-      (pin Rect[B]Pad_1600x1000_um 4@1 2400 875)
-      (pin Rect[T]Pad_1600x1000_um 3 2400 875)
-      (pin Rect[T]Pad_1600x1000_um 2 -2400 875)
-      (pin Rect[B]Pad_1600x1000_um 3@1 2400 -875)
-      (pin Rect[B]Pad_1600x1000_um 2@1 -2400 -875)
-      (pin Rect[T]Pad_1600x1000_um 1@1 -2400 -875)
-    )
     (padstack Round[A]Pad_1397_um
       (shape (circle F.Cu 1397))
       (shape (circle B.Cu 1397))
@@ -730,20 +598,12 @@
       (shape (rect B.Cu -1150 -1000 1150 1000))
       (attach off)
     )
-    (padstack Rect[B]Pad_1600x1000_um
-      (shape (rect B.Cu -800 -500 800 500))
-      (attach off)
-    )
     (padstack Rect[T]Pad_2200x700_um
       (shape (rect F.Cu -1100 -350 1100 350))
       (attach off)
     )
     (padstack Rect[T]Pad_2300x2000_um
       (shape (rect F.Cu -1150 -1000 1150 1000))
-      (attach off)
-    )
-    (padstack Rect[T]Pad_1600x1000_um
-      (shape (rect F.Cu -800 -500 800 500))
       (attach off)
     )
     (padstack "Via[0-1]_800:400_um"
@@ -863,20 +723,10 @@
     )
     (net VCC
       (pins R30-2 R30-2@1 R30-2@2 R30-2@3 R30-2@4 R29-1 R29-1@1 R29-1@2 R29-1@3 R29-1@4
-        U1-21 U1-21@1 J1-C J1-C@1 L1-4 L1-4@1 L2-4 L2-4@1 L3-4 L3-4@1 L4-4 L4-4@1
-        L5-4 L5-4@1 L6-4 L6-4@1 L7-4 L7-4@1 L8-4 L8-4@1 L9-4 L9-4@1 L10-4 L10-4@1
-        L11-4 L11-4@1 L12-4 L12-4@1 L13-4 L13-4@1 L14-4 L14-4@1 L15-4 L15-4@1 L16-4
-        L16-4@1 L17-4 L17-4@1 L18-4 L18-4@1 L19-4 L19-4@1 L20-4 L20-4@1 L21-4 L21-4@1
-        L22-4 L22-4@1 L23-4 L23-4@1 L24-4 L24-4@1 L25-4 L25-4@1 L27-4 L27-4@1 L28-4
-        L28-4@1)
+        U1-21 U1-21@1 J1-C J1-C@1)
     )
     (net GND
-      (pins SW29-2 U1-3 U1-23 U1-23@1 U1-4 U1-3@1 U1-4@1 J1-B J1-B@1 L1-2 L1-2@1 L2-2
-        L2-2@1 L3-2 L3-2@1 L4-2 L4-2@1 L5-2 L5-2@1 L6-2 L6-2@1 L7-2 L7-2@1 L8-2 L8-2@1
-        L9-2 L9-2@1 L10-2 L10-2@1 L11-2 L11-2@1 L12-2 L12-2@1 L13-2 L13-2@1 L14-2
-        L14-2@1 L15-2 L15-2@1 L16-2 L16-2@1 L17-2 L17-2@1 L18-2 L18-2@1 L19-2 L19-2@1
-        L20-2 L20-2@1 L21-2 L21-2@1 L22-2 L22-2@1 L23-2 L23-2@1 L24-2 L24-2@1 L25-2
-        L25-2@1 L26-2 L26-2@1 L27-2 L27-2@1 L28-2 L28-2@1)
+      (pins SW29-2 U1-3 U1-23 U1-23@1 U1-4 U1-3@1 U1-4@1 J1-B J1-B@1)
     )
     (net "Net-(J1-PadA)"
       (pins JP2-1 JP1-1 J1-A)
@@ -889,96 +739,6 @@
     )
     (net SCL
       (pins R30-1 R30-1@1 R30-1@2 R30-1@3 R30-1@4 U1-6 U1-6@1 JP4-2 JP2-2)
-    )
-    (net "Net-(L1-Pad1)"
-      (pins L1-1 L1-1@1 L7-3 L7-3@1)
-    )
-    (net "Net-(L1-Pad3)"
-      (pins L1-3 L1-3@1 L2-1 L2-1@1)
-    )
-    (net "Net-(L2-Pad3)"
-      (pins L2-3 L2-3@1 L8-1 L8-1@1)
-    )
-    (net "Net-(L3-Pad1)"
-      (pins L3-1 L3-1@1 L9-3 L9-3@1)
-    )
-    (net "Net-(L3-Pad3)"
-      (pins L3-3 L3-3@1 L4-1 L4-1@1)
-    )
-    (net "Net-(L10-Pad1)"
-      (pins L4-3 L4-3@1 L10-1 L10-1@1)
-    )
-    (net "Net-(L11-Pad3)"
-      (pins L5-1 L5-1@1 L11-3 L11-3@1)
-    )
-    (net "Net-(L5-Pad3)"
-      (pins L5-3 L5-3@1 L6-1 L6-1@1)
-    )
-    (net "Net-(L12-Pad1)"
-      (pins L6-3 L6-3@1 L12-1 L12-1@1)
-    )
-    (net "Net-(L13-Pad3)"
-      (pins L7-1 L7-1@1 L13-3 L13-3@1)
-    )
-    (net "Net-(L14-Pad1)"
-      (pins L8-3 L8-3@1 L14-1 L14-1@1)
-    )
-    (net "Net-(L15-Pad3)"
-      (pins L9-1 L9-1@1 L15-3 L15-3@1)
-    )
-    (net "Net-(L10-Pad3)"
-      (pins L10-3 L10-3@1 L16-1 L16-1@1)
-    )
-    (net "Net-(L11-Pad1)"
-      (pins L11-1 L11-1@1 L17-3 L17-3@1)
-    )
-    (net "Net-(L12-Pad3)"
-      (pins L12-3 L12-3@1 L18-1 L18-1@1)
-    )
-    (net "Net-(L13-Pad1)"
-      (pins L13-1 L13-1@1 L19-3 L19-3@1)
-    )
-    (net "Net-(L14-Pad3)"
-      (pins L14-3 L14-3@1 L20-1 L20-1@1)
-    )
-    (net "Net-(L15-Pad1)"
-      (pins L15-1 L15-1@1 L21-3 L21-3@1)
-    )
-    (net "Net-(L16-Pad3)"
-      (pins L16-3 L16-3@1 L22-1 L22-1@1)
-    )
-    (net "Net-(L17-Pad1)"
-      (pins L17-1 L17-1@1 L23-3 L23-3@1)
-    )
-    (net "Net-(L18-Pad3)"
-      (pins L18-3 L18-3@1 L24-1 L24-1@1)
-    )
-    (net "Net-(L19-Pad1)"
-      (pins L19-1 L19-1@1 L25-3 L25-3@1)
-    )
-    (net "Net-(L20-Pad3)"
-      (pins L20-3 L20-3@1 L21-1 L21-1@1)
-    )
-    (net "Net-(L22-Pad3)"
-      (pins L22-3 L22-3@1 L26-1 L26-1@1)
-    )
-    (net "Net-(L23-Pad1)"
-      (pins L23-1 L23-1@1 L27-3 L27-3@1)
-    )
-    (net "Net-(L24-Pad3)"
-      (pins L24-3 L24-3@1 L28-1 L28-1@1)
-    )
-    (net "Net-(L25-Pad1)"
-      (pins L25-1 L25-1@1)
-    )
-    (net "Net-(L26-Pad4)"
-      (pins L26-4 L26-4@1)
-    )
-    (net "Net-(L26-Pad3)"
-      (pins L26-3 L26-3@1 L27-1 L27-1@1)
-    )
-    (net /RGB
-      (pins U1-13 U1-13@1 L28-3 L28-3@1)
     )
     (net /col0
       (pins SW1-2 SW1-2@1 SW25-2 SW25-2@1 SW7-2 SW7-2@1 SW13-2 SW13-2@1 SW19-2 SW19-2@1
@@ -1020,6 +780,9 @@
     (net "Net-(U1-Pad17)"
       (pins U1-17 U1-17@1)
     )
+    (net "Net-(U1-Pad13)"
+      (pins U1-13 U1-13@1)
+    )
     (class kicad_default "" /RGB /RST /col0 /col1 /col2 /col3 /col4 /col5
       /rowA /rowB /rowC /rowD /rowE GND "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)"
       "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)"
@@ -1034,8 +797,9 @@
       "Net-(L15-Pad3)" "Net-(L16-Pad3)" "Net-(L17-Pad1)" "Net-(L18-Pad3)"
       "Net-(L19-Pad1)" "Net-(L2-Pad3)" "Net-(L20-Pad3)" "Net-(L22-Pad3)" "Net-(L23-Pad1)"
       "Net-(L24-Pad3)" "Net-(L25-Pad1)" "Net-(L26-Pad3)" "Net-(L26-Pad4)"
-      "Net-(L3-Pad1)" "Net-(L3-Pad3)" "Net-(L5-Pad3)" "Net-(U1-Pad14)" "Net-(U1-Pad15)"
-      "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U1-Pad24)" SCL SDA VCC
+      "Net-(L3-Pad1)" "Net-(L3-Pad3)" "Net-(L5-Pad3)" "Net-(U1-Pad13)" "Net-(U1-Pad14)"
+      "Net-(U1-Pad15)" "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U1-Pad24)"
+      SCL SDA VCC
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
