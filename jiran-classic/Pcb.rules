@@ -5,13 +5,13 @@
   )
   (autoroute_settings
     (fanout off)
-    (autoroute on)
+    (eu.mihosoft.freerouting.autoroute on)
     (postroute on)
     (vias on)
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 17668)
+    (start_pass_no 1348)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -28,7 +28,7 @@
   (rule
     (width 200.0)
     (clear 200.2)
-    (clear 85.0 (type smd_to_turn_gap))
+    (clear 100.0 (type smd_to_turn_gap))
     (clear 50.0 (type smd_smd))
   )
   (padstack "Via[0-1]_800:400_um"
