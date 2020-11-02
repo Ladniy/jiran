@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# LOGO-jiran
+# LOGO-jiran-jiran-classic-rescue-jiran-hotswap-rescue
 #
-DEF LOGO-jiran #G 0 40 Y Y 1 F N
+DEF LOGO-jiran-jiran-classic-rescue-jiran-hotswap-rescue #G 0 40 Y Y 1 F N
 F0 "#G" 0 300 60 H V C CNN
-F1 "LOGO-jiran" 0 -200 60 H I C CNN
+F1 "LOGO-jiran-jiran-classic-rescue-jiran-hotswap-rescue" 0 -200 60 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -29,11 +29,11 @@ P 369 0 0 1 201 77 -198 77 -198 31 -191 31 -190 34 -190 39 -189 42 -185 50 -182 
 ENDDRAW
 ENDDEF
 #
-# MJ-4PP-9-kbd-Pcb-rescue
+# MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue
 #
-DEF MJ-4PP-9-kbd-Pcb-rescue J 0 40 Y Y 1 F N
+DEF MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue J 0 40 Y Y 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "MJ-4PP-9-kbd-Pcb-rescue" 0 -150 50 H V C CNN
+F1 "MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue" 0 -150 50 H V C CNN
 F2 "" 275 175 50 H I C CNN
 F3 "" 275 175 50 H I C CNN
 DRAW
@@ -50,11 +50,11 @@ X ~ D 200 25 79 L 28 20 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ProMicro-kbd-Pcb-rescue
+# ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue
 #
-DEF ProMicro-kbd-Pcb-rescue U 0 40 Y Y 1 F N
+DEF ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 950 60 H V C CNN
-F1 "ProMicro-kbd-Pcb-rescue" 0 -550 60 H V C CNN
+F1 "ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue" 0 -550 60 H V C CNN
 F2 "" 100 -1050 60 H V C CNN
 F3 "" 100 -1050 60 H V C CNN
 DRAW
