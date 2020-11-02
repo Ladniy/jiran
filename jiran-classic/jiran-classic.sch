@@ -1676,7 +1676,7 @@ F 3 "" H 2920 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pcb-rescue:MJ-4PP-9-kbd J1
+L jiran-classic-rescue:MJ-4PP-9-kbd-Pcb-rescue J1
 U 1 1 5DBFACF7
 P 955 2900
 F 0 "J1" H 955 3120 50  0000 C CNN
@@ -1851,7 +1851,7 @@ NoConn ~ 2640 1845
 NoConn ~ 2640 1745
 Connection ~ 1240 1145
 $Comp
-L Pcb-rescue:ProMicro-kbd U1
+L jiran-classic-rescue:ProMicro-kbd-Pcb-rescue U1
 U 1 1 5DAA926E
 P 1940 1695
 F 0 "U1" H 1940 2732 60  0000 C CNN
@@ -2068,7 +2068,7 @@ Connection ~ 9360 1785
 Wire Wire Line
 	9360 1785 9360 2285
 $Comp
-L jiran:LOGO G1
+L jiran-classic-rescue:LOGO-jiran G1
 U 1 1 5FA09AD8
 P 8900 4250
 F 0 "G1" H 8850 4550 60  0000 L CNN
@@ -2079,7 +2079,7 @@ F 3 "" H 8900 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jiran:LOGO G2
+L jiran-classic-rescue:LOGO-jiran G2
 U 1 1 5FA0B668
 P 9350 4250
 F 0 "G2" H 9300 4550 60  0000 L CNN
