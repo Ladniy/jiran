@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "(5.1.6)-1")
+    (host_version "(5.1.7)-1")
   )
   (resolution um 10)
   (unit um)
@@ -120,17 +120,16 @@
     )
   )
   (placement
+    (component used_footprints:Silk_Logotype
+      (place G2 219920 -77210 back 0 (PN LOGO))
+      (place G1 219920 -77210 front 0 (PN LOGO))
+    )
     (component used_footprints:Hole_Mount_M4
-      (place HM6 96160 -82496.5 front 0 (PN CaseHole))
-      (place HM5 115235 -100283 front 0 (PN CaseHole))
-      (place HM4 115235 -62180 front 0 (PN CaseHole))
-      (place HM3 153335 -51521.2 front 0 (PN CaseHole))
+      (place HM5 96160 -82496.5 front 0 (PN CaseHole))
+      (place HM4 115235 -100283 front 0 (PN CaseHole))
+      (place HM3 115235 -62180 front 0 (PN CaseHole))
       (place HM2 191435 -55045.5 front 0 (PN CaseHole))
       (place HM1 191435 -112190 front 0 (PN CaseHole))
-    )
-    (component Used_Footprints:Silk_Logo_New
-      (place LG1 219920 -77210 front 0 (PN Silk_Logo_New))
-      (place LG2 219920 -77210 back 0 (PN Silk_Logo_New))
     )
     (component used_footprints:ProMicro_Dual
       (place U1 220540 -78530 front 0 (PN ProMicro))
@@ -279,11 +278,11 @@
     )
   )
   (library
+    (image used_footprints:Silk_Logotype
+    )
     (image used_footprints:Hole_Mount_M4
       (keepout "" (circle F.Cu 4200))
       (keepout "" (circle B.Cu 4200))
-    )
-    (image Used_Footprints:Silk_Logo_New
     )
     (image used_footprints:ProMicro_Dual
       (outline (path signal 120  7290.05 13210  7209.65 12831.7  6982.33 12518.8  6647.4 12325.5
