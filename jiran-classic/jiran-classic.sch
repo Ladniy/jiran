@@ -2068,25 +2068,25 @@ Connection ~ 9360 1785
 Wire Wire Line
 	9360 1785 9360 2285
 $Comp
-L jiran-classic-rescue:LOGO-jiran G1
-U 1 1 5FA09AD8
-P 8900 4250
-F 0 "G1" H 8850 4550 60  0000 L CNN
-F 1 "LOGO" H 8900 4050 60  0001 C CNN
-F 2 "used_footprints:Silk_Logotype" H 8900 4250 50  0001 C CNN
-F 3 "" H 8900 4250 50  0001 C CNN
-	1    8900 4250
+L jiran:logo-jiran-classic G1
+U 1 1 5FA0EF82
+P 8950 4200
+F 0 "G1" H 8900 4450 60  0000 L CNN
+F 1 "logo-jiran-classic" H 8950 3950 60  0001 C CNN
+F 2 "used_footprints:Silk_Logo_Classic" H 8950 4200 50  0001 C CNN
+F 3 "" H 8950 4200 50  0001 C CNN
+	1    8950 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L jiran-classic-rescue:LOGO-jiran G2
-U 1 1 5FA0B668
-P 9350 4250
-F 0 "G2" H 9300 4550 60  0000 L CNN
-F 1 "LOGO" H 9350 4050 60  0001 C CNN
-F 2 "used_footprints:Silk_Logotype" H 9350 4250 50  0001 C CNN
-F 3 "" H 9350 4250 50  0001 C CNN
-	1    9350 4250
+L jiran:logo-jiran-classic G2
+U 1 1 5FA104C5
+P 9400 4200
+F 0 "G2" H 9350 4450 60  0000 L CNN
+F 1 "logo-jiran-classic" H 9400 3950 60  0001 C CNN
+F 2 "used_footprints:Silk_Logo_Classic" H 9400 4200 50  0001 C CNN
+F 3 "" H 9400 4200 50  0001 C CNN
+	1    9400 4200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
