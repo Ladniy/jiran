@@ -1710,7 +1710,7 @@ F 3 "~" H 7515 4300 50  0001 C CNN
 $EndComp
 $Comp
 L Mechanical:MountingHole HM3
-U 1 1 5DC0F92C
+U 1 1 5DC14B86
 P 7515 4500
 F 0 "HM3" H 7615 4546 50  0000 L CNN
 F 1 "CaseHole" H 7615 4455 50  0000 L CNN
@@ -1721,35 +1721,24 @@ F 3 "~" H 7515 4500 50  0001 C CNN
 $EndComp
 $Comp
 L Mechanical:MountingHole HM4
-U 1 1 5DC14B86
-P 7515 4700
-F 0 "HM4" H 7615 4746 50  0000 L CNN
-F 1 "CaseHole" H 7615 4655 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 7515 4700 50  0001 C CNN
-F 3 "~" H 7515 4700 50  0001 C CNN
-	1    7515 4700
+U 1 1 5DC1BC70
+P 7515 4705
+F 0 "HM4" H 7615 4751 50  0000 L CNN
+F 1 "CaseHole" H 7615 4660 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 7515 4705 50  0001 C CNN
+F 3 "~" H 7515 4705 50  0001 C CNN
+	1    7515 4705
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM5
-U 1 1 5DC1BC70
-P 7515 4905
-F 0 "HM5" H 7615 4951 50  0000 L CNN
-F 1 "CaseHole" H 7615 4860 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 7515 4905 50  0001 C CNN
-F 3 "~" H 7515 4905 50  0001 C CNN
-	1    7515 4905
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole HM6
 U 1 1 5DC1BC76
-P 7515 5095
-F 0 "HM6" H 7615 5141 50  0000 L CNN
-F 1 "CaseHole" H 7615 5050 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 7515 5095 50  0001 C CNN
-F 3 "~" H 7515 5095 50  0001 C CNN
-	1    7515 5095
+P 7515 4895
+F 0 "HM5" H 7615 4941 50  0000 L CNN
+F 1 "CaseHole" H 7615 4850 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 7515 4895 50  0001 C CNN
+F 3 "~" H 7515 4895 50  0001 C CNN
+	1    7515 4895
 	1    0    0    -1  
 $EndComp
 $Comp
