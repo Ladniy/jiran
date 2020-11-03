@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/Pcb-rescue.lib)(options "")(descr ""))
+  (lib (name jiran-classic-rescue)(type Legacy)(uri ${KIPRJMOD}/jiran-classic-rescue.lib)(options "")(descr ""))
+  (lib (name jiran-hotswap-rescue)(type Legacy)(uri ${KIPRJMOD}/jiran-hotswap-rescue.lib)(options "")(descr ""))
+)
