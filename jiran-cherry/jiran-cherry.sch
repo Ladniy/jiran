@@ -1224,7 +1224,7 @@ U 1 1 5FA1704C
 P 8750 950
 F 0 "G1" H 8700 1200 60  0000 L CNN
 F 1 "logo-jiran-cherry" H 8750 700 60  0001 C CNN
-F 2 "" H 8750 950 50  0001 C CNN
+F 2 "used_footprints:Silk_Logo_Cherry" H 8750 950 50  0001 C CNN
 F 3 "" H 8750 950 50  0001 C CNN
 	1    8750 950 
 	1    0    0    -1  
@@ -1235,7 +1235,7 @@ U 1 1 5FA17C36
 P 9200 950
 F 0 "G2" H 9150 1200 60  0000 L CNN
 F 1 "logo-jiran-cherry" H 9200 700 60  0001 C CNN
-F 2 "" H 9200 950 50  0001 C CNN
+F 2 "used_footprints:Silk_Logo_Cherry" H 9200 950 50  0001 C CNN
 F 3 "" H 9200 950 50  0001 C CNN
 	1    9200 950 
 	1    0    0    -1  
