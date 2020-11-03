@@ -936,7 +936,7 @@ F 3 "" H 2920 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L jiran-hotswap-rescue:MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue J1
+L jiran-cherry-rescue:MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue J1
 U 1 1 5DBFACF7
 P 955 2900
 F 0 "J1" H 955 3120 50  0000 C CNN
@@ -1028,7 +1028,7 @@ NoConn ~ 2640 1845
 NoConn ~ 2640 1745
 Connection ~ 1240 1145
 $Comp
-L jiran-hotswap-rescue:ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue U1
+L jiran-cherry-rescue:ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue U1
 U 1 1 5DAA926E
 P 1940 1695
 F 0 "U1" H 1940 2732 60  0000 C CNN
@@ -1219,23 +1219,23 @@ Wire Wire Line
 Wire Wire Line
 	2640 1045 2830 1045
 $Comp
-L jiran:logo-jiran-hotswap G1
-U 1 1 5FA214AC
+L jiran:logo-jiran-cherry G1
+U 1 1 5FA1704C
 P 8750 950
 F 0 "G1" H 8700 1200 60  0000 L CNN
-F 1 "logo-jiran-hotswap" H 8750 700 60  0001 C CNN
-F 2 "used_footprints:Silk_Logo_Hotswap" H 8750 950 50  0001 C CNN
+F 1 "logo-jiran-cherry" H 8750 700 60  0001 C CNN
+F 2 "" H 8750 950 50  0001 C CNN
 F 3 "" H 8750 950 50  0001 C CNN
 	1    8750 950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L jiran:logo-jiran-hotswap G2
-U 1 1 5FA2276E
+L jiran:logo-jiran-cherry G2
+U 1 1 5FA17C36
 P 9200 950
 F 0 "G2" H 9150 1200 60  0000 L CNN
-F 1 "logo-jiran-hotswap" H 9200 700 60  0001 C CNN
-F 2 "used_footprints:Silk_Logo_Hotswap" H 9200 950 50  0001 C CNN
+F 1 "logo-jiran-cherry" H 9200 700 60  0001 C CNN
+F 2 "" H 9200 950 50  0001 C CNN
 F 3 "" H 9200 950 50  0001 C CNN
 	1    9200 950 
 	1    0    0    -1  
