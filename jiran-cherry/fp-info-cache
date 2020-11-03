@@ -1,4 +1,4 @@
-32013763826925
+35226664149410
 used_footprints
 Cutout_Mx_14x14
 
@@ -98,6 +98,13 @@ Silk_Cover
 0
 0
 used_footprints
+Silk_Logo_Cherry
+
+
+0
+0
+0
+used_footprints
 Silk_Logo_Classic
 
 
@@ -117,6 +124,13 @@ Switch_MxAlpsChoc_MillMax_1u
 
 0
 7
+2
+used_footprints
+Switch_Mx_Cherry_1u
+
+
+0
+4
 2
 used_footprints
 Switch_Mx_Hotswap_1u
