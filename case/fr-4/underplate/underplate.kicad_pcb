@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 64)
-    (tracks 1)
+    (tracks 0)
     (zones 0)
     (modules 5)
     (nets 1)
@@ -260,8 +260,6 @@
   (gr_arc (start 103.6 131.7885) (end 103.6 130.7885) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5FA116FB))
   (gr_line (start 178.800001 48.59) (end 178.800001 48.876) (layer Edge.Cuts) (width 0.05) (tstamp 5FA116FA))
   (gr_arc (start 139.750001 46.59) (end 139.750001 47.59) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5FA116F9))
-
-  (via (at 102.616 74.93) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 0))
 
   (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5FA1188F) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
